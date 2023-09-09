@@ -1,0 +1,239 @@
+
+/* #region BANNER */
+.container__banner{
+    height: 590px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/contact-us/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content__banner{
+    margin: 150px 50px 100px 50px;
+    text-align: center;
+    color: var(--color-white);
+    text-shadow: var(--drop-shadow);
+}
+
+.title-banner{
+    font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.text-banner{
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+/* #endregion */
+
+/* #region CONTACT-US */
+
+.container-shorthand__contact-us{
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.section__contact-us{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.title__contact-us{
+    color: var(--color-primary-1);
+    margin-bottom: 40px;
+}
+
+.p__contact-us{
+    color: var(--color-title-2);
+}
+
+.container-card__contact-us{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__contact-us{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    padding: 50px 20px;
+    border-radius: 25px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    color: var(--color-white);
+}
+
+.card__contact-us:first-of-type{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/contact-us/img-02.png);
+}
+
+.card__contact-us:last-of-type{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/contact-us/img-01.png);
+}
+
+.title-card{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cellular-contact-us{
+    font-size: 22px;
+}
+.card-icon i{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.email-contact-us{
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+.cellular-contact-us,
+.email-contact-us{
+    color: var(--color-white);
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .container-shorthand__contact-us{
+        max-width: 90%;
+    }
+    
+    .title__contact-us{
+        margin-bottom: 20px;
+    }
+
+    .card__contact-us{
+        width: 200px;
+        height: 200px;
+        padding: 20px 10px;
+        border-radius: 20px;
+    }
+    
+    .title-card{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .cellular-contact-us{
+        font-size: 16px;
+    }
+    .card-icon i{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .email-contact-us{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container-shorthand__contact-us{
+        max-width: 90%;
+    }
+
+    .section__contact-us{
+        width: 100%;
+    }
+    
+    .title__contact-us{
+        margin-bottom: 20px;
+    }
+    
+    .container-card__contact-us{
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        display: block;
+    }
+    
+    .card__contact-us{
+        width: 200px;
+        height: 200px;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .title-card{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .cellular-contact-us{
+        font-size: 16px;
+    }
+    .card-icon i{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .email-contact-us{
+        font-size: 14px;
+    }
+}
+/* #endregion */
+
+/* #region FORM */
+
+.container__contact-us{
+    max-width: 550px;
+    margin: 60px auto 40px auto;
+}
+.heading-title-form{
+    color: var(--color-primary-1);
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* #endregion */
+
+/* #region MAPS */
+.container__navigation-maps{
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+}
+
+.heading__navigation-maps h1{
+    color: var(--color-primary-1);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content__navigation-maps{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--drop-shadow);
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__navigation-maps{
+        max-width: 90%;
+    }
+
+    .content__navigation-maps{
+        width: 100%;
+    }
+}
+/* #endregion */
+
+
+
+

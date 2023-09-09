@@ -1,0 +1,152 @@
+
+.timetable__red{
+    width: 280px;
+    height: 150px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content__timetable-red{
+    width: 280px;
+    height: 140px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.time-table-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.time-table-day,
+.time-table-hour{
+    color: var(--color-title-1);
+}
+
+.time-table-day{
+    font-size: 22px;
+}
+
+.time-table-hour{
+    font-size: 24px;
+}
+
+.content__timetable-red>p::after{
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 5px;
+    border-radius: 50px;
+    background: var(--color-p);
+    text-align: center;
+}
+
+@media (max-width: 335px) and (min-width: 280px){
+    .timetable__red{
+        width: 240px;
+        height: 140px;
+        border-radius: 30px;
+    }
+
+    .content__timetable-red{
+        text-align: center;
+    }
+
+    .content__timetable-red{
+        width: 240px;
+        height: 140px;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    .time-table-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .time-table-day,
+    .time-table-hour{
+        color: var(--color-title-1);
+    }
+
+    .time-table-day{
+        font-size: 22px;
+    }
+
+    .time-table-hour{
+        font-size: 24px;
+    }
+
+    .content__timetable-red>p::after{
+        content: '';
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        width: 120px;
+        height: 5px;
+        border-radius: 50px;
+        background: var(--color-p);
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 336px){
+        
+    .timetable__red{
+        width: 240px;
+        height: 140px;
+        padding: 5px;
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .content__timetable-red{
+        text-align: center;
+    }
+
+    .content__timetable-red{
+        width: 240px;
+        height: 140px;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    .time-table-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .time-table-day,
+    .time-table-hour{
+        color: var(--color-title-1);
+    }
+
+    .time-table-day{
+        font-size: 22px;
+    }
+
+    .time-table-hour{
+        font-size: 24px;
+    }
+
+    .content__timetable-red>p::after{
+        content: '';
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        width: 120px;
+        height: 5px;
+        border-radius: 50px;
+        background: var(--color-p);
+        text-align: center;
+    }
+}

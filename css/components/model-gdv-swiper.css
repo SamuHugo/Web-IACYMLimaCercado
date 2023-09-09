@@ -1,0 +1,253 @@
+.content__gdv-slider{
+    max-width: 790px;
+    margin-top: 30px !important;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.swiper {
+    width: 650px;
+    height: 330px;
+    border-radius: 40px;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 17px;
+    border-radius: 40px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    background-color: var(--color-black);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content__swiper-gdv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.container__swiper-gdv h1{
+    color: var(--color-white);
+    padding-bottom: 10px;
+}
+
+.description-swiper-gdv{
+    width: 50%;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.gdv-lideres, .gdv-lideres-alt{
+    color: var(--color-p-blank);
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gdv-lideres-alt{
+    color: var(--color-title-blank);
+}
+
+.img-swiper-gdv{
+    width: 290px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.img-swiper-gdv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider__btn-next{
+    top: 50%;
+    right: 0px;
+}
+
+.slider__btn-prev{
+    top: 50%;
+    left: 0px;
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .content__gdv-slider{
+        max-width: 700px;
+        margin-top: 30px;
+    }
+    
+    .swiper {
+        width: 600px;
+        height: 320px;
+    }
+
+    .swiper-slide{
+        font-size: 16px;
+    }
+    
+    .content__swiper-gdv{
+        margin: 0 20px;
+    }
+    
+    .container__swiper-gdv h1{
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+    
+    .description-swiper-gdv{
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .description-swiper-gdv p{
+        font-size: 16px;
+    }
+    
+    .gdv-lideres{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .img-swiper-gdv{
+        width: 280px;
+        height: 220px;
+    }
+    
+    .slider__btn-next{
+        right: -30px;
+    }
+    
+    .slider__btn-prev{
+        left: -30px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .content__gdv-slider{
+        max-width: 700px;
+        margin-top: 30px;
+    }
+    
+    .swiper {
+        width: 600px;
+        height: 320px;
+    }
+
+    .swiper-slide{
+        font-size: 16px;
+    }
+    
+    .content__swiper-gdv{
+        margin: 0 20px;
+    }
+    
+    .container__swiper-gdv h1{
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+    
+    .description-swiper-gdv{
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .description-swiper-gdv p{
+        font-size: 16px;
+    }
+    
+    .gdv-lideres{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .img-swiper-gdv{
+        width: 280px;
+        height: 220px;
+    }
+    
+    .slider__btn-next, .slider__btn-prev, .slider__btn{
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .content__gdv-slider{
+        max-width: min-content;
+        margin-top: 30px;
+        padding: 0 15px;
+        padding-top: 10%;
+    }
+    
+    .swiper {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .swiper-slide{
+        font-size: 16px;
+        padding: 20px 0;
+        border-radius: 30px;
+    }
+    
+    .content__swiper-gdv{
+        margin: 0;
+    }
+    
+    .container__swiper-gdv h1{
+        padding-bottom: auto;
+        font-size: 28px;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .description-swiper-gdv{
+        width: 95%;
+        text-align: center;
+        margin: 15px auto 20px auto;
+    }
+
+    .description-swiper-gdv>p{
+        font-size: 16px;
+    }
+    
+    .gdv-lideres, .gdv-lideres-alt{
+        margin: 0 auto 15px auto;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .img-swiper-gdv{
+        margin: auto;
+        width: 90%;
+        height: 220px;
+    }
+    
+    .slider__btn-next, .slider__btn-prev, .slider__btn{
+        display: none !important;
+    }
+}

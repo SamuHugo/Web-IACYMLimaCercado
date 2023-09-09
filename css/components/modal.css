@@ -1,0 +1,76 @@
+
+.btn-modal{
+    margin: 50px auto 0px auto;
+    width: 120px;
+    left: 48%;
+}
+
+.btn-modal label,
+.btn-modal label i{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#btn-modal{
+    display: none;
+}
+
+.container__modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    transition: all 0.3s ease;
+    
+}
+
+#btn-modal:checked ~ .container__modal{
+    display: flex;
+    animation-name: an-fading;
+    animation-duration: .1s;
+}
+
+.content__modal{
+    max-width: 800px;
+    padding: 50px;
+    margin: 0 20px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+}
+
+.modal-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-title-1);
+}
+
+.btn-position{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .modal-title{
+        font-size: 25px;
+    }
+
+    .content__modal{
+        padding: 30px;
+        margin: 0 10px;
+    }
+
+    .btn-modal{
+        margin: 20px auto 0 auto;
+    }
+}

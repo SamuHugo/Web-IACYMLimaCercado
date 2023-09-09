@@ -1,0 +1,461 @@
+@import url(../components/model-gdv-scroll.css);
+@import url(../components/model-events-red.css);
+@import url(../components/table-red.css);
+
+body{
+    background-color: var(--color-dark);
+}
+
+/* #region BANNER*/
+.container__banner {
+    max-width: 100%;
+    height: 700px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/r2/banner-.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
+}
+
+
+.banner-content {
+    margin-top: 130px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+
+.banner-content-title-responsive{
+    display: none;
+}
+
+.banner-content-title, .banner-content-title-responsive {
+    font-family: 'Jost', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 100px;
+    color: var(--color-white);
+}
+
+.banner-content-btn-boxs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-content-btn {
+    margin-top: 25px;
+}
+
+.banner-content-btn>a {
+    margin-right: 15px;
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__banner {
+        height: 500px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .banner-content-title {
+        font-size: 90px;
+        line-height: 70px;
+    }
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__banner {
+        height: 600px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .banner-content {
+        margin: auto;
+        margin-top: 80px;
+        max-width: 200px;
+    }
+
+    .banner-content-title {
+        display: none;
+    }
+
+    .banner-content-title-responsive{
+        display: block;
+    }
+
+    .banner-content-title-responsive{
+        font-size: 90px;
+        line-height: 80px;
+    }
+
+    .banner-content-btn-boxs{
+        display: block;
+        margin: auto;
+    }
+
+    .banner-content-btn-boxs:first-of-type{
+        margin-top: 50px;
+    }
+    
+    .banner-content-btn{
+        text-align: center;
+    }
+    
+}
+
+/* #endregion*/
+
+/* #region BIENVENIDA*/
+.container__welcome {
+    max-width: 1300px;
+    height: 700px;
+    margin: 20px auto;
+    border-radius: var(--rounded-corner-m);
+    background-image: url(../../img/redes/r2/welcome-.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content__welcome {
+    width: 100%;
+    height: 100%;
+    padding: 100px 13% 40px 13%;
+    backdrop-filter: blur(10px);
+    color: var(--color-white);
+}
+
+.welcome-title{
+    max-width: 80%;
+    min-width: 60%;
+    margin: auto;
+}
+
+.welcome-title img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.welcome-description>p {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin: 0 20% 50px 20%;
+    text-shadow: var(--drop-shadow);
+}
+
+.welcome-description>h2 {
+    font-family: 'lexend', sans-serif;
+    text-align: center;
+}
+
+.red-coordinador {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.red-coordinador::after {
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 206px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+.red-cargo {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__welcome {
+        max-width: 95%;
+        height: 550px;
+        border-radius: 20px;
+    }
+    
+    .content__welcome {
+        padding: 80px 30px 40px 30px;
+    }
+    
+    .welcome-title{
+        max-width: 80%;
+        min-width: 60%;
+        margin: auto;
+    }
+    
+    .welcome-description>p {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    .red-coordinador::after {
+        width: 60%;
+    }
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__welcome {
+        max-width: 95%;
+        height: 450px;
+        border-radius: 20px;
+    }
+    
+    .content__welcome {
+        padding: 15% 10px;
+    }
+    
+    .welcome-title{
+        max-width: 80%;
+        min-width: 60%;
+        margin: auto;
+    }
+    
+    .welcome-title img{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .welcome-description>p {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    
+    .red-coordinador {
+        font-size: 18px;
+    }
+    
+    .red-coordinador::after {
+        width: 60%;
+        text-align: center;
+    }
+    
+    .red-cargo {
+        font-size: 14px;
+    }
+}
+/* #endregion */
+
+/* #region MSJ RED */
+.container__msj-red {
+    max-width: 1100px;
+    height: 560px;
+    margin: 20px auto;
+    border-radius: var(--rounded-corner-m);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/redes/r2/msj-.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content__msj-red {
+    padding: 100px 0 40px 0;
+}
+
+.msj-red-title>h1{
+    text-align: center;
+    font-size: 54px;
+    line-height: 60px;
+    color: var(--color-white);
+    text-shadow: var(--drop-shadow);
+}
+
+.msj-red-description{
+    margin-top: 40px;
+    margin-right: 100px;
+    float: right; 
+}
+
+.msj-red-description>p {
+    text-align: right;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 650px;
+    color: var(--color-white);
+    text-shadow: var(--drop-shadow);
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__msj-red {
+        height: 480px;
+        border-radius: 20px;
+    }
+    
+    .content__msj-red {
+        padding: 13% 0;
+    }
+    
+    .msj-red-title>h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .msj-red-description{
+        margin-top: 30px;
+        margin-right: 0;
+        float: none; 
+    }
+    
+    .msj-red-description>p {
+        text-align: center;
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__msj-red {
+        max-width: 95%;
+        height: 400px;
+        border-radius: 20px;
+    }
+    
+    .content__msj-red {
+        padding: 13% 0;
+    }
+    
+    .msj-red-title>h1{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+    .msj-red-description{
+        margin-top: 30px;
+        margin-right: 0;
+        float: none; 
+    }
+    
+    .msj-red-description>p {
+        text-align: center;
+        font-size: 16px;
+        width: 95%;
+        margin: auto;
+    }
+}
+/* #endregion */
+
+/* #region GDV */
+
+.container__gdv{
+    max-width: 1300px;
+    margin: auto;
+    border-radius: var(--rounded-corner-m);
+    background-color: #010101;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.article__gdv{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/redes/r2/gdv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 520px;
+    padding: 60px 10% 0 10%;
+}
+
+.article__gdv>p,
+.article__gdv>h1{
+    color: var(--color-white);
+    text-align: center;
+}
+
+.article__gdv>p{
+    font-size: 40px;
+}
+
+.article__gdv>h1{
+    font-size: 75px;
+    line-height: 50px;
+}
+
+.content-article__gdv{
+    color: var(--color-white);
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+.box-r2-l{
+    margin-left: 5%;
+}
+
+.box-r2-r{
+    margin-right: 5%;
+}
+
+@media(max-width: 1366px) and (min-width: 1200px){
+    .container__gdv{
+        max-width: 90%;
+    }
+    
+    .article__gdv{
+        height: 500px;
+    }
+}
+
+@media(max-width: 1199px) and (min-width: 992px){
+    .container__gdv{
+        max-width: 950px;
+    }
+    
+    .article__gdv{
+        height: 480px;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__gdv{
+        max-width: 95%;
+        border-radius: 20px;
+    }
+
+    .article__gdv{
+        height: 400px;
+    }
+    
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__gdv{
+        max-width: 95%;
+        border-radius: 20px;
+    }
+
+    .article__gdv{
+        height: 300px;
+        padding: 40px 3% 0px 3%;
+    }
+    
+    .content-article__gdv{
+        width: 90%;
+    }
+
+    .box-r2-l{
+        margin-left: auto;
+    }
+    
+}
+
+/* #endregion */
+
+
+
+
+
+

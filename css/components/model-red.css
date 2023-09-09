@@ -1,0 +1,702 @@
+@import url(../components/model-gdv-swiper.css);
+@import url(../components/time-table_red.css);
+
+/*#region Banner */
+.container__banner{
+    max-width: 100%;
+    height: 700px;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
+}
+
+.banner-va, .banner-da, .banner-un, .banner-sh{
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.banner-va {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/varones/banner-.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.banner-da {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/damas/banner-.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.banner-un {
+    background: url(../../img/redes/unidos/banner.jpg);
+    background-position-y: 60%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.banner-sh {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/shajah/banner.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.logo-red{
+    margin: auto;
+    margin-top: 80px;
+    width: 850px;
+    height: 320px;
+}
+
+.logo-red img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+
+.banner-content-btn>a {
+    text-align: center !important;
+}
+
+.banner-content-btn-boxs{
+    display: inline-flex;
+    margin: auto;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .container__banner{
+        height: 600px;
+        border-radius: 15px;
+    }
+
+    .logo-red{
+        margin: auto;
+        margin-top: 80px;
+        width: 550px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 374px){
+    .container__banner{
+        height: 500px;
+        border-radius:0 0 15px 15px;
+    }
+
+    .logo-red{
+        margin: auto;
+        margin-top: 80px;
+        width: 350px;
+        height: 180px;
+    }
+
+    .banner-content-btn-boxs{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .banner-content-btn-boxs>.banner-content-btn{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 373px) and (min-width: 280px){
+    .container__banner{
+        height: 500px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .logo-red{
+        margin: auto;
+        margin-top: 80px;
+        width: 300px;
+        height: 160px;
+    }
+
+    .banner-content-btn-boxs{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .banner-content-btn-boxs>.banner-content-btn{
+        margin-top: 30px;
+    }
+}
+/* #endregion */
+
+/*#region Welcome */
+.container__welcome{
+    max-width: 1300px;
+    height: 600px;
+    margin: 20px auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.welcome-va  {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/varones/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.welcome-da{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/damas/welcome-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.welcome-un{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/unidos/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 60%;
+}
+
+.welcome-sh{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/unidos/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.content__welcome {
+    padding: 100px 13% 40px 13%;
+}
+
+.welcome-title>h1{
+    text-align: center;
+}
+
+.welcome-title>h1>span{
+    font-family: 'jost', sans serif;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.welcome-title>h1>span:first-of-type{
+    font-size: 40px;
+}
+
+.welcome-title>h1>span:nth-of-type(2){
+    font-size: 70px;
+    line-height: 75px;
+}
+
+.welcome-description{
+    color: var(--color-white);
+    margin-top: 40px;
+}
+
+.welcome-description>p {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin: 0 12% 50px 12%;
+    text-shadow: var(--drop-shadow);
+}
+
+.welcome-description>h2 {
+    font-family: 'lexend', sans-serif;
+    text-align: center;
+    
+}
+
+.red-coordinador {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.red-coordinador::after {
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 206px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    text-align: right;
+    box-shadow: var(--drop-shadow);
+}
+
+.red-cargo {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .container__banner{
+        height: 500px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .container__welcome{
+        max-width: 95%;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+    .content__welcome {
+        padding: 100px 8% 40px 8%;
+    }
+
+    .welcome-description>p {
+        text-align: center;
+        margin-bottom: 50px;
+        margin: 0 5% 50px 5%;
+        text-shadow: var(--drop-shadow);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__welcome{
+        max-width: 95%;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+    .content__welcome {
+        padding: 120px 4% 0 4%;
+    }
+
+    .welcome-title>h1>span:first-of-type{
+        font-size: 25px;
+    }
+    
+    .welcome-title>h1>span:nth-of-type(2){
+        font-size: 50px;
+        line-height: 45px;
+    }
+    
+    .welcome-description{
+        color: var(--color-white);
+        margin-top: 40px;
+    }
+    
+    .welcome-description>p {
+        font-size: 18px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .red-coordinador {
+        font-size: 18px;
+    }
+    
+    .red-coordinador::after {
+        width: 150px;
+    }
+    
+    .red-cargo {
+        font-size: 14px;
+    }
+
+}
+/* #endregion */
+
+/*#region Gdv */
+.container__gdvs{
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 70px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.gdvs-va{
+    background-color: #1C2B4E;
+}
+
+.gdvs-da{
+    background-color: #D23C48;
+}
+
+.gdvs-un{
+    background-color: var(--color-un);
+}
+
+
+.gdvs-sh{
+    background-color: #BF9A08;
+}
+
+.article__gdvs{
+    height: 550px;
+    padding: 60px 10% 0px 10%;
+}
+
+.art__gdvs-va{
+    background: linear-gradient(0deg, rgba(28, 43, 78, 0.82), rgba(28, 43, 78, 0.82)), linear-gradient(180deg, rgba(0, 0, 0, 0) 11.46%, rgba(28, 43, 78, 0.616883) 56.25%, #1C2B4E 76.56%), url(../../img/redes/varones/gdv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.art__gdvs-da{
+    background: linear-gradient(0deg, rgba(210, 60, 72, 0.73), rgba(210, 60, 72, 0.73)), linear-gradient(179.93deg, rgba(0, 0, 0, 0) 0.06%, #D23C48 87.32%), url(../../img/redes/damas/gdv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.art__gdvs-un{
+    background: linear-gradient(0deg, rgba(199, 44, 51, 0.76), rgba(199, 44, 51, 0.76)), linear-gradient(179.92deg, rgba(0, 0, 0, 0) 7.67%, rgba(149, 33, 38, 0.746988) 54.84%, #C72C33 74.02%), url(../../img/redes/unidos/gdv-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.art__gdvs-sh{
+    background: linear-gradient(0deg, rgba(191, 154, 8, 0.79), rgba(191, 154, 8, 0.79)), linear-gradient(179.92deg, rgba(0, 0, 0, 0) 44%, rgba(167, 135, 7, 0.87156) 67.06%, #BF9A08 79.24%), url(../../img/redes/shajah/gdv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 60%;
+}
+
+.article__gdvs>p,
+.article__gdvs>h1{
+    color: var(--color-white);
+    text-align: center;
+    text-shadow: var(--drop-shadow);
+}
+
+.article__gdvs>p{
+    font-size: 40px;
+    color: var(--color-white);
+}
+
+.article__gdvs>h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 50px;
+    color: var(--color-white);
+}
+
+.article__gdvs-info{
+    width: 600px;
+    margin: auto;
+}
+
+.article__gdvs-info>p{
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: var(--drop-shadow);
+    
+}
+
+.timetable__red{
+    margin-top: 50px;
+}
+
+.slide-varones{
+    background-color: var(--color-primary-2);
+}
+
+.slide-damas{
+    background-color: #F2828B;
+}
+
+.slide-shajah{
+    background-color: #8D7508;
+}
+
+
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container__gdvs{
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__gdvs{
+        max-width: 95%;
+        margin: auto;
+        padding-bottom: 50px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 318px){
+    .container__gdvs{
+        max-width: 95%;
+        margin: auto;
+        padding-bottom: 0;
+        border-radius: 20px;
+    }
+
+    .article__gdvs{
+        height: 450px;
+        padding: 60px 5% 0px 5%;
+    }
+    
+    .article__gdvs>p{
+        font-size: 25px;
+    }
+    
+    .article__gdvs>h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    
+    .article__gdvs-info{
+        width: 90%;
+    }
+    
+    .timetable__red-da{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 317px) and (min-width: 292px){
+    .container__gdvs{
+        max-width: 95%;
+        margin: auto;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    .article__gdvs{
+        height: 450px;
+        padding: 60px 5% 0px 5%;
+    }
+    
+    .article__gdvs>p{
+        font-size: 25px;
+    }
+    
+    .article__gdvs>h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    
+    .article__gdvs-info{
+        width: 90%;
+    }
+    
+    .timetable__red-da{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 291px) and (min-width: 280px){
+    .container__gdvs{
+        max-width: 95%;
+        margin: auto;
+        padding-bottom: 0;
+        border-radius: 20px;
+    }
+
+    .article__gdvs{
+        height: 450px;
+        padding: 60px 5% 0px 5%;
+    }
+    
+    .article__gdvs>p{
+        font-size: 25px;
+    }
+    
+    .article__gdvs>h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    
+    .article__gdvs-info{
+        width: 90%;
+    }
+    
+    .timetable__red-da{
+        margin-top: 30px;
+    }
+}
+/* #endregion */
+
+/*#region Events */
+.container__events{
+    max-width: 1000px;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.events-va{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/events.jpg);
+    background-size: cover;
+}
+
+.events-da{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/events.jpg);
+    background-size: cover;
+}
+
+.events-un{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/unidos/events.jpg);
+    background-size: cover;
+}
+
+.events-sh{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/unidos/events.jpg);
+    background-size: cover;
+}
+
+.content__events{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.message__events{
+    width: 40%;
+}
+
+.message__events>h1{
+    text-align: left;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color-white);
+    margin-top: 50px;
+}
+
+.message__events>p{
+    color: var(--color-white);
+    margin-top: 20px;
+}
+
+.ad__events-img{
+    width: 540px;
+    height: 300px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.ad__events-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1366px) and (min-width: 1200px){
+    .content__events{
+        padding: 30px;
+    }
+
+    .ad__events-img{
+        width: 440px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container__events{
+        border-radius: 30px;
+    }
+    .content__events{
+        padding: 30px;
+    }
+
+    .ad__events-img{
+        width: 400px;
+        height: 230px;
+    }
+
+    .message__events>h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__events{
+        max-width: 95%;
+        border-radius: 20px;
+    }
+    
+    .content__events{
+        padding: 20px;
+    }
+
+    .ad__events-img{
+        width: 360px;
+        height: 230px;
+        border-radius: 20px;
+    }
+
+    .message__events>h1{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__events{
+        max-width: 95%;
+        border-radius: 20px;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+    
+    .content__events{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        display: block;
+    }
+    
+    .message__events{
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .message__events>h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    
+    .message__events>p{
+        color: var(--color-white);
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .ad__events-img{
+        width: 100%;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    
+    .ad__events-img>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+/*#endregion */

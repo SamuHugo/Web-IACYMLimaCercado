@@ -1,0 +1,8 @@
+body{
+    margin: 10%;
+}
+
+.container__test{
+    background-color: var(--color-background-2);
+    padding: 30px;
+}

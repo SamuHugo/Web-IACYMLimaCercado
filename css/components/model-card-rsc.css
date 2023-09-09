@@ -1,0 +1,40 @@
+.card{
+    width: 290px;
+    margin-bottom: 55px;
+}
+
+.card-cover{
+    width: 100%;
+    height: 170px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-cover img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-info{
+    text-align: left;
+    color: var(--color-title-2);
+}
+
+.card-title{
+    margin-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+}
+
+.card-duration{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card-duration>i{
+    font-size: 15px;
+}

@@ -1,0 +1,171 @@
+/* #region HORARIO & MSJ */
+
+.container___table-red{
+    max-width: 1100px;
+    height: 350px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--color-white);
+}
+
+.content__timetable{
+    width: 49%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.text-1-table-red{
+    font-size: 26px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.text-2-table-red{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.text-3-table-red{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.elementor-dividor-table-red{
+    margin: auto;
+}
+
+.elementor-dividor-table-red::after{
+    content: '';
+    display: block;
+    margin: auto;
+    width: 5px;
+    height: 300px;
+    border-radius: 50px;
+    background: var(--color-white);
+    text-align: center;
+}
+
+.content__msj{
+    width: 49%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.text-msj{
+    width: 80%;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin: auto;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container___table-red{
+        max-width: 80%;
+        height: 330px;
+    }
+    
+    .content__timetable{
+        width: 49%;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    
+    .elementor-dividor-table-red::after{
+        height: 280px;
+    }
+    
+    .content__msj{
+        width: 49%;
+        margin: 40px 0;
+    }
+    
+    .text-msj{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container___table-red{
+        max-width: 740px;
+        height: 310px;
+        margin: 20px auto;
+    }
+    
+    .content__timetable{
+        width: 49%;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    
+    .content__timetable h1{
+        font-size: 34px;
+    }
+
+    .text-1-table-red{
+        font-size: 22px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    
+    .text-2-table-red{
+        font-size: 28px;
+    }
+    
+    .text-3-table-red{
+        font-size: 28px;
+    }
+    
+    .elementor-dividor-table-red::after{
+        height: 250px;
+    }
+    
+    .content__msj{
+        margin: 10% 0;
+    }
+    
+    .text-msj{
+        width: 90%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container___table-red{
+        max-width: 740px;
+        height: min-content;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .content__timetable{
+        width: 95%;
+        text-align: center;
+        margin: 40px auto;
+    }
+    
+    .elementor-dividor-table-red::after{
+        width: 80%;
+        height: 5px;
+    }
+    
+    .content__msj{
+        width: 95%;
+        margin: 10% auto;
+    }
+    
+    .text-msj{
+        width: 90%;
+        font-size: 24px;
+    }
+}
+/* #endregion */

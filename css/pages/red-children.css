@@ -1,0 +1,635 @@
+@import url(../components/model-gdv-swiper.css);
+
+
+/* #region BANNER*/
+.container__banner {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: var(--rounded-corner-bottom);
+    background-image: url(../../img/redes/zona-kids/IMG_3131.jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+}
+.banner-content {
+    margin-top: 9%;
+    margin-left: 10%;
+    max-width: 450px;
+}
+
+.banner-content-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 100px;
+    color: var(--color-white);
+}
+
+.banner-content-btn:first-of-type {
+    margin-top: 40px;
+}
+
+.banner-content-btn {
+    margin-top: 25px;
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container__banner{
+        height: 520px;
+    }
+
+    .banner-content-title {
+        font-size: 110px;
+        line-height: 90px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__banner{
+        height: 480px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .banner-content-title {
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+    .banner-content {
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 426px){
+    .container__banner{
+        height: 480px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .banner-content-title {
+        font-size: 80px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .banner-content {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 350px;
+    }
+
+    .banner-content-btn {
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 280px){
+    .container__banner{
+        height: 480px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .banner-content-title {
+        font-size: 80px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .banner-content {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner-content-btn {
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+/* #endregion*/
+
+/* #region BIENVENIDA*/
+
+.container__box-welcome{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.container__welcome-rch {
+    max-width: 550px;
+    min-height: 480px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: var(--rounded-corner-m);
+    background-image: linear-gradient(0deg, rgba(249, 162, 12, 0.6), rgba(214, 23, 33, 0.6)), url(../../img/redes/zona-kids/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container__welcome-rch:last-of-type{
+    background-image: linear-gradient(0deg, rgba(12, 201, 249, 0.6), rgba(46, 121, 11, 0.6)), url(../../img/redes/zona-kids/DSC_0128.jpg);
+}
+
+.content__welcome-rch {
+    padding: 30px 10%;
+    text-align: center;
+}
+
+.welcome-rch-title{
+    max-width: 80%;
+    margin: auto;
+}
+
+.welcome-rch-title>h1>span {
+    margin-right: 10px;
+}
+
+.rch-color-1,
+.rch-color-2 {
+    font-family: 'Geometos Rounded', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.rch-color-3,
+.rch-color-4 {
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.rch-color-1 {
+    color: #F1C35B;
+}
+
+.rch-color-2 {
+    color: #bb2f49;
+}
+
+.rch-color-3 {
+    color: #DD3E42;
+}
+
+.rch-color-4 {
+    color: #F39E40;
+}
+
+.welcome-rch-description {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.welcome-rch-description>p {
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.welcome-rch-description>h2 {
+    font-family: 'lexend', sans-serif;
+    color: var(--color-white);
+}
+
+.schedule-rch-title{
+    max-width: 100%;
+    margin: auto;
+    color: var(--color-white);
+}
+
+.schedule-rch-description{
+    color: var(--color-white);
+    margin-top: 50px;
+}
+
+.schedule-rch-description>p:first-of-type{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.schedule-rch-description>p:last-of-type{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.schedule-rch-services{
+    color: var(--color-white);
+    margin-top: 50px;
+}
+
+.schedule-rch-services p{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+@media (max-width: 1225px) and (min-width: 992px){
+    .container__box-welcome{
+        max-width: 1000px;
+    }
+
+    .container__welcome-rch{
+        max-width: 450px;
+        min-height: 430px;
+    }
+
+    .welcome-rch-title{
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    .welcome-rch-title>h1>span {
+        margin-right: 10px;
+    }
+    
+    .rch-color-1,
+    .rch-color-2 {
+        font-size: 28px;
+    }
+    
+    .rch-color-3,
+    .rch-color-4 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .welcome-rch-description{
+        font-size: 16px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__box-welcome{
+        max-width: 100%;
+        display: block;
+    }
+    
+    .container__welcome-rch {
+        max-width: 95%;
+        min-height: 480px;
+        border-radius: 20px;
+    }
+    
+    .content__welcome-rch {
+        padding: 30px 4%;
+        text-align: center;
+    }
+    
+    .welcome-rch-title{
+        margin-top: 40px;
+    }
+    
+    .schedule-rch-title>h1{
+        margin-top: 5%;
+    }
+   
+    .schedule-rch-description{
+        color: var(--color-white);
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__box-welcome{
+        max-width: 100%;
+        display: block;
+    }
+    
+    .container__welcome-rch {
+        max-width: 95%;
+        min-height: 480px;
+        border-radius: var(--rounded-corner-s);
+    }
+    
+    .content__welcome-rch {
+        padding: 30px 4%;
+        text-align: center;
+    }
+    
+    .welcome-rch-title{
+        margin-top: 40px;
+    }
+    
+    .rch-color-1,
+    .rch-color-2 {
+        font-size: 30px;
+    }
+    
+    .rch-color-3,
+    .rch-color-4 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .welcome-rch-description {
+        margin-top: 50px;
+    }
+    
+    .welcome-rch-description>p {
+        font-size: 18px;
+    }
+
+
+    .schedule-rch-title>h1{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+    .schedule-rch-description{
+        color: var(--color-white);
+        margin-top: 50px;
+    }
+    
+    .schedule-rch-description>p:first-of-type{
+        font-size: 28px;
+        line-height: 10px;
+    }
+    
+    .schedule-rch-description>p:last-of-type{
+        font-size: 34px;
+        margin-top: 20px;
+    }
+
+    .schedule-rch-services p{
+        font-size: 28px;
+    }
+}
+
+/* #endregion */
+
+/* #region SWIPER AULAS */
+
+.container__groups-kids{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: var(--rounded-corner-m);
+    background-color: rgba(225, 225, 225, .9);
+    padding: 60px 20px;
+}
+
+.section__groups-kids{
+    margin: auto;
+}
+
+.section__groups-kids>h1{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.section__groups-kids>p{
+    color: var(--color-p);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.gk-title-1{
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    color: var(--color-primary-3);
+    font-size: 70px;
+}
+
+.section__groups-kids>h1>span{
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: transparent;
+}
+
+.btn_children{
+    margin:  0 -40px;
+}
+
+.slide-children{
+    background-color: var(--color-white);
+}
+
+.title-kids{
+    text-align: center;
+    color: var(--color-black) !important;
+}
+
+.description-swiper-kids{
+    text-align: center;
+    color: var(--color-p);
+}
+
+.age-kids{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: var(--color-secondary-1);
+}
+
+.swiper-kids{
+    width: 80%;
+    margin: auto;
+    display: block;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__groups-kids{
+        max-width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 5% 4%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__groups-kids{
+        max-width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: var(--rounded-corner-s);
+        padding: 6% 4%;
+    }
+
+    .section__groups-kids>h1>span{
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .section__groups-kids>h1{
+        width: 100px;
+        box-sizing: border-box;
+    }
+
+    .section__groups-kids>p{
+        margin: 20px 0;
+    }
+}
+
+/* #endregion */
+
+/* #region EVENTOS */
+
+.container__events{
+    max-width: 1000px;
+    height: max-content;
+    margin: 20px auto;
+    padding: 30px;
+    background: linear-gradient(0deg, rgba(255, 162, 0, 0.861), rgba(0, 174, 255, 0.6)), url(../../img/redes/zona-kids/IMG_3020.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--rounded-corner-m);
+    overflow: hidden;
+}
+
+.content__events{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container__events>h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container__events>h1>span{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.container__events>h1>span:first-of-type{
+    color: #F0AA5C;
+}
+
+.container__events>h1>span:nth-last-of-type(1){
+    color: #FF0000;
+}
+
+.message__events{
+    width: 50%;
+}
+
+.message__events>p{
+    text-align: right;
+    color: var(--color-white);
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.ad__events{
+    width: 50%;
+}
+
+.ad__events-img{
+    width: 100%;
+    height: 280px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.ad__events-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+
+    .container__events{
+        max-width: 90%;
+    }
+
+    .container__events>h1>span{
+        font-size: 50px;
+    }
+
+    .message__events{
+        width: 45%;
+    }
+
+    .message__events>p{
+        font-size: 20px;
+    }
+
+    .ad__events{
+        width: 55%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__events{
+        max-width: 95%;
+        margin: 20px auto;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .container__events>h1>span{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__events{
+        max-width: 95%;
+        margin: 20px auto;
+        border-radius: var(--rounded-corner-s);
+        padding: 30px 10px;
+    }
+
+    .content__events{
+        display: block;
+    }
+
+    .message__events, .ad__events{
+        width: 100%;
+    }
+
+    .message__events>p{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .ad__events-img{
+        width: 100%;
+        height: 220px;
+        border-radius: 20px;
+    }
+
+    .container__events>h1>span{
+        font-size: 50px;
+    }
+}
+/* #endregion */
+
+
+
