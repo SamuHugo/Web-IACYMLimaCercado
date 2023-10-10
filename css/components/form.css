@@ -14,8 +14,7 @@
     padding: 10px 22px;
     margin-bottom: 15px;
     border-radius: 10px;
-    background-color: var(--color-title-blank);
-    color: var(--color-title-2);
+    background-color: var(--color-gray-3);
     font-family: 'Lexend', sans-serif;
     font-weight: 400;
     font-size: 18px;
