@@ -1,0 +1,502 @@
+@import url(../components/model-gdv-scroll.css);
+@import url(../components/model-events-red.css);
+@import url(../components/table-red.css);
+
+
+body{
+    background-color: var(--color-dark);
+}
+
+/* #region BANNER*/
+.container__banner {
+    width: 100%;
+    height: 700px;
+    border-radius: 0 0 30px 30px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/redes/gv/banner.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    overflow: hidden;
+}
+
+.content__banner {
+    position: relative;
+}
+
+.banner-content {
+    margin-top: 140px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+
+.banner-content-title {
+    font-family: 'Jost', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 95px;
+    color: var(--color-white);
+}
+
+.logo-red{
+    position: absolute;
+    top: 0;
+    left: 800px;
+    width: 200px;
+}
+
+.banner-content-btn-boxs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-content-btn {
+    margin-top: 25px;
+}
+
+.banner-content-btn>a {
+    margin-right: 15px;
+}
+
+@media(max-width: 1199px) and (min-width: 992px){
+    .container__banner {
+        height: 620px;
+    }
+
+    .logo-red{
+        left: 650px;
+        width: 170px;
+    }
+    
+    .banner-content-title {
+        font-size: 80px;
+        line-height: 70px;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__banner {
+        height: 500px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .logo-red{
+        left: 510px;
+        width: 150px;
+    }
+
+    .banner-content-title {
+        font-size: 60px;
+        line-height: 50px;
+    }
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__banner {
+        height: 600px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .logo-red{
+        top: -250px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 150px;
+    }
+    
+    .banner-content {
+        margin: auto;
+        margin-top: 40px;
+        max-width: 200px;
+    }
+
+    .banner-content-title{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .banner-content-btn-boxs{
+        display: block;
+        margin: auto;
+    }
+
+    .banner-content-btn-boxs:first-of-type{
+        margin-top: 50px;
+    }
+    
+    .banner-content-btn{
+        text-align: center;
+    }
+    
+}
+/* #endregion*/
+
+/* #region BIENVENIDA*/
+.container__welcome {
+    max-width: 1300px;
+    height: 700px;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-image: url(../../img/redes/gv/welcome-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.content__welcome {
+    padding: 100px 13% 40px 13%;
+}
+
+.welcome-title>h1{
+    text-align: center;
+    font-family: 'Jost', sans serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--color-white);
+}
+
+.welcome-title>h1>span:first-of-type{
+    font-size: 50px;
+}
+
+.welcome-title>h1>span:nth-of-type(2){
+    font-size: 100px;
+    line-height: 65px;
+}
+
+.welcome-description{
+    color: var(--color-white);
+    margin-top: 40px;
+}
+
+.welcome-description>p {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin: 0 12% 50px 12%;
+    text-shadow: var(--drop-shadow);
+}
+
+.welcome-description>h2 {
+    font-family: 'lexend', sans-serif;
+    text-align: center;
+    
+}
+
+.red-coordinador {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.red-coordinador::after {
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 206px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    text-align: right;
+    box-shadow: var(--drop-shadow);
+}
+
+.red-cargo {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__welcome {
+        max-width: 95%;
+        height: 550px;
+        border-radius: 20px;
+    }
+    
+    .content__welcome {
+        padding: 40px 30px;
+    }
+    
+    .welcome-title>h1>span:first-of-type{
+        font-size: 35px;
+    }
+    
+    .welcome-title>h1>span:nth-of-type(2){
+        font-size: 80px;
+        line-height: 55px;
+    }
+    
+    .welcome-description{
+        margin-top: 10px;
+    }
+
+    .welcome-description>p {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__welcome {
+        max-width: 95%;
+        height: 450px;
+        border-radius: 20px;
+    }
+    
+    .content__welcome {
+        padding: 10% 10px;
+    }
+
+    .welcome-title>h1{
+        line-height: 10px;
+    }
+    
+    .welcome-title>h1>span:first-of-type{
+        font-size: 24px;
+    }
+    
+    .welcome-title>h1>span:nth-of-type(2){
+        font-size: 40px;
+    }
+
+    .welcome-description{
+        margin-top: 20px;
+    }
+
+    .welcome-description>p {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    
+    .red-coordinador {
+        font-size: 18px;
+    }
+    
+    .red-coordinador::after {
+        width: 160px;
+        text-align: center;
+    }
+    
+    .red-cargo {
+        font-size: 14px;
+    }
+}
+/* #endregion */
+
+/* #region MSJ RED */
+.container__msj-red {
+    max-width: 1100px;
+    height: 500px;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-image: url(../../img/redes/gv/msj.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content__msj-red {
+    padding: 100px 8% 40px 8%;
+}
+
+.msj-red-title>h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    color: var(--color-primary-1);
+    text-shadow: var(--drop-shadow);
+}
+
+.msj-red-description{
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.msj-red-description>p {
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 45%;
+    color: var(--color-primary-1);
+    text-shadow: var(--drop-shadow);
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__msj-red {
+        height: 420px;
+        border-radius: 20px;
+    }
+    
+    .content__msj-red {
+        padding: 13% 40px;
+    }
+    
+    .msj-red-title>h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .msj-red-description{
+        margin-top: 30px;
+        margin-right: 0;
+        float: none; 
+    }
+    
+    .msj-red-description>p {
+        text-align: left;
+        font-size: 20px;
+        width: 90%;
+    }
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__msj-red {
+        max-width: 95%;
+        height: 380px;
+        border-radius: 20px;
+    }
+    
+    .content__msj-red {
+        padding: 13% 20px;
+    }
+    
+    .msj-red-title>h1{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+    .msj-red-description{
+        margin-top: 30px;
+        margin-right: 0;
+        float: none; 
+    }
+    
+    .msj-red-description>p {
+        text-align: left;
+        font-size: 16px;
+        width: 95%;
+    }
+}
+/* #endregion */
+
+/* #region GDV */
+
+.container__gdv{
+    max-width: 1300px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #141517;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.article__gdv{
+    background-image: url(../../img/redes/gv/gdv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 520px;
+    padding: 60px 10% 0px 10%;
+}
+
+.article__gdv>p,
+.article__gdv>h1{
+    color: var(--color-white);
+    text-align: center;
+}
+
+.article__gdv>p{
+    font-size: 40px;
+}
+
+.article__gdv>h1{
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 50px;
+    color: var(--color-secondary-4);
+}
+
+.content-article__gdv{
+    color: var(--color-white);
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+.box__gdv{
+    margin: 0 5%;
+}
+
+@media(max-width: 1366px) and (min-width: 1200px){
+    .container__gdv{
+        max-width: 90%;
+    }
+    
+    .article__gdv{
+        height: 500px;
+    }
+}
+
+@media(max-width: 1199px) and (min-width: 992px){
+    .container__gdv{
+        max-width: 950px;
+    }
+    
+    .article__gdv{
+        height: 480px;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .container__gdv{
+        max-width: 95%;
+        border-radius: 20px;
+    }
+
+    .article__gdv{
+        height: 400px;
+    }
+    
+}
+
+@media(max-width: 767px) and (min-width: 280px){
+    .container__gdv{
+        max-width: 95%;
+        border-radius: 20px;
+    }
+
+    .article__gdv{
+        height: 300px;
+        padding: 40px 3% 0px 3%;
+    }
+    
+    .content-article__gdv{
+        width: 90%;
+    }
+    
+}
+
+/* #endregion */
+
+
+
+
+
+

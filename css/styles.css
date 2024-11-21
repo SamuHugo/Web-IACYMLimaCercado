@@ -1,0 +1,43 @@
+/*=======================================
+=======Date Created: 02-NOV-2022
+=======Author: Min. Informatica IACYM-LC
+=======Last Udpdate
+=======Author: Samuel Hugo
+=======Update: 25-ENE-2023
+========================================*/
+
+@import '../css/base/variables.css';
+@import '../css/base/fonts.css';
+@import '../css/base/elements.css';
+@import '../css/base/responsive.css';
+@import '../css/base/icons.css';
+@import '../css/components/nav.css';
+@import '../css/components/footer.css';
+@import '../css/components/button.css';
+@import '../css/components/text.css';
+@import '../css/components/widget.css';
+@import '../css/components/modal.css';
+@import '../css/components/modal-form.css';
+@import '../css/components/form.css';
+@import '../css/components/animation.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+
+@media (max-width: 279px){
+
+    main{
+        display: none;
+    }
+
+}

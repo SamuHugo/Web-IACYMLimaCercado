@@ -1,0 +1,48 @@
+@import '../components/filter-bible-academy.css';
+
+body{
+  background-color: var(--color-primary-1);
+}
+
+main{
+  background-color: #fff;
+}
+
+.container__leadership{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-card__leadership{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .card-leadership{
+    width: 450px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .btn-color-leadership{
+    background-color: var(--color-secondary-4);
+  }
+
+  .btn-color-seminar{
+    background-color: var(--color-secondary-6);
+  }
+
+  .elementor-attention{
+    color: #EC2222;
+    margin: 15px;
+}
+
+.elementor-attention>span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}

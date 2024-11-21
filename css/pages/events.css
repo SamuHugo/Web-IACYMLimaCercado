@@ -1,0 +1,407 @@
+/* #region Events */
+.container__events{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.heading__events{
+    margin-bottom: 30px;
+}
+
+.container__box-events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box-events-superior{
+    max-width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.box-events-superior>.img-events{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-events-superior>.img-events>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-events,
+.box-events-principal{
+    max-width: 48%;
+    max-height: 260px;
+    overflow: hidden;
+}
+
+.img-events{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .4s ease-in;
+}
+
+.img-events img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-events-principal>.img-events{
+    position: relative;
+}
+
+.box-events-principal>.img-events>h1{
+    position: absolute;
+    top: 40%;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    color: red;
+    text-align: center;
+    background-color: #fff;
+    max-width: max-content;
+    min-height: max-content;
+}
+/* #endregion */
+
+/* #region App */
+.container__ad-app{
+    max-width: 1100px;
+    height: 600px;
+    background-color: #f3f3f3;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container__ad-app p{
+    color: var(--color-p-2);
+}
+
+.section__ad-app{
+    text-align: center;
+}
+
+.content__ad-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container__box-app{
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.content-box{
+    width: 40%;
+}
+
+.content-box:last-of-type{
+    display: none;
+}
+
+.cover-phone-app{
+    max-width: 400px;
+    height: 500px;
+    background-image: url(../../img/events-news/iphone12miniblack_portrait.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+.content-box:nth-of-type(2){
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.content-box:last-of-type{
+    padding: 10px;
+}
+
+.box-app:first-of-type{
+    width: 160px;
+    margin: auto 0;
+    overflow: hidden;
+}
+
+.box-app{
+    width: 150px;
+    overflow: hidden;
+}
+/* #endregion */
+
+@media (max-width: 1199px) and (min-width: 992px){
+    /* #region Events */
+    .container__events{
+        max-width: 900px;
+    }
+    
+    .box-events-superior{
+        max-height: 380px;
+    }
+    
+    .box-events,
+    .box-events-principal{
+        max-height: 220px;
+    }
+    
+    /* #endregion */
+
+    /* #region App */
+    .container__ad-app{
+        max-width: 800px;
+        height: 500px;
+        background-color: #f3f3f3;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .container__ad-app p{
+        color: var(--color-p-2);
+    }
+
+    .section__ad-app{
+        text-align: center;
+    }
+
+    .content__ad-app{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container__box-app{
+        width: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .content-box{
+        width: 40%;
+    }
+
+    .cover-phone-app{
+        max-width: 400px;
+        height: 500px;
+        background-image: url(../../img/events-news/iphone12miniblack_portrait.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+    }
+
+    .content-box:last-of-type{
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .box-app:first-of-type{
+        width: 130px;
+        margin: auto 0;
+        overflow: hidden;
+    }
+
+    .box-app{
+        width: 120px;
+        overflow: hidden;
+    }
+    /* #endregion */
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    /* #region Events */
+    .container__events{
+        max-width: 90%;
+    }
+
+    .heading__events h1{
+        max-width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .box-events-superior{
+        max-height: 300px;
+    }
+    
+    .box-events,
+    .box-events-principal{
+        width: 47%;
+        max-height: 150px;
+    }
+
+    .box-events-principal>.img-events>h1{
+        font-size: 23px;
+    }
+    /* #endregion */
+
+    /* #region App */
+    .container__ad-app{
+        max-width: 80%;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .container__ad-app p{
+        font-size: 14px;
+    }
+
+    .container__box-app{
+        width: 200px;
+    }
+
+    .content-box{
+        width: 40%;
+    }
+
+    .cover-phone-app{
+        max-width: 200px;
+        height: 400px;
+    }
+
+    .content-box:last-of-type{
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .box-app:first-of-type{
+        width: 100px;
+    }
+
+    .box-app{
+        width: 90px;
+    }
+    /* #endregion */
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    /* #region Events */
+    .container__events{
+        max-width: 95%;
+    }
+
+    .heading__events h1{
+        max-width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .container__box-events{
+        display: block;
+        gap: 0;
+    }
+    
+    .box-events-superior{
+        max-height: 180px;
+    }
+
+    .box-events-superior>.img-events{
+        height: 180px;
+    }
+
+    .box-events,
+    .box-events-principal{
+        max-width: 100%;
+        max-height: none;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .img-events{
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    .box-events-principal>.img-events>h1{
+        font-size: 20px;
+    }
+    /* #endregion */
+
+    /* #region App */
+    .container__ad-app{
+        max-width: 80%;
+        height: 500px;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .container__ad-app p{
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .content__ad-app{
+        display: block;
+    }
+
+    .container__box-app{
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .content-box:first-of-type{
+        display: none;
+    }
+
+    .content-box:last-of-type{
+        display: initial;
+    }
+
+    .content-box{
+        width: 100%;
+    }
+
+    .content-box p{
+        margin-top: 20px;
+        font-weight: normal;
+    }
+
+    .content-box:nth-of-type(2){
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .cover-phone-app{
+        max-width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .content-box:last-of-type{
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .box-app:first-of-type{
+        width: 100px;
+    }
+
+    .box-app{
+        width: 90px;
+    }
+    /* #endregion */
+}

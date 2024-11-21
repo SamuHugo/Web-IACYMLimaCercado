@@ -1,0 +1,40 @@
+
+.nav-pagination{
+    max-width: 100%;
+}
+
+.list-page-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-item{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.page-item>.page-link{
+    background-color: #E7E7E7;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-title-2);
+    transition: all .2s ease-in;
+}
+
+.page-item>.page-link:hover{
+    background-color: #585858;
+    color: var(--color-white);
+}
+
+.disable:disabled{
+    opacity: .7;
+}
+
+.active{
+    background-color: var(--color-primary-1);
+    color: var(--color-white);
+}

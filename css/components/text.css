@@ -1,0 +1,290 @@
+/* #region font jost*/
+.elementor-fn-jost-xbl{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+}
+
+
+.elementor-fn-jost-bl{
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+}
+
+.elementor-fn-jost-md{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+}
+
+.elementor-fn-jost-rg{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+
+.elementor-fn-jost-lt{
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+/* #endregion */
+
+/* #region font lexend */
+.elementor-fn-lx-xbl{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+.elementor-fn-lx-bl{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+}
+
+.elementor-fn-lx-md{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+
+}
+
+.elementor-fn-lx-rg{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+
+.elementor-fn-lx-lt{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+}
+/* #endregion */
+
+/*### TEXT TYPE ###*/
+
+.elementor-heading-title{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+}
+
+.elementor-heading-title-2{
+    font-family: 'Jost', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elementor-heading-title-lg{
+    font-family: 'Jost', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elementor-heading-lx-title-lg{
+    font-family: 'Jost', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.elementor-p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.elementor-p-2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+}
+
+.elementor-p-3{
+    font-family: 'Dm Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+}
+
+.elementor-p-light{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.elementor-p-3-light{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.02rem;
+}
+
+.elementor-p-2-light{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.02rem;
+}
+
+
+@media (max-width: 992px) and (min-width: 280px){
+     .elementor-p{
+        font-size: 15px;
+     }
+
+     .elementor-p-2{
+        font-size: 15px;
+     }
+
+     .elementor-p-3{
+        font-size: 18px;
+     }
+
+     .elementor-heading-title{
+        font-size: 25px;
+     }
+
+     .elementor-heading-title-2{
+        font-size: 28px;
+     }
+
+     .elementor-heading-title-lg{
+        font-size: 32px;
+     }
+}
+
+.children-filter-zona{
+    color: #115B87 !important;
+}
+
+.children-filter-k{
+    color: #2BBAD8 !important;
+}
+
+.children-filter-i{
+    color: #E83462 !important;
+}
+
+.children-filter-d{
+    color: #F39415 !important;
+}
+
+.children-filter-s{
+    color: #4EAE38 !important;
+}
+
+
+/*BOTTOM TEXT*/
+
+.elementor-text-bottom{
+    color: var(--color-secondary-1);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.elementor-text-bottom-lg{
+    color: var(--color-secondary-1);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.elementor-text-heading-sm{
+    color: var(--color-secondary-1);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.elementor-text-bottom-2{
+    color: var(--color-white);
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.elementor-text-heading-2-sm{
+    color: var(--color-white);
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* TEXT TAG */
+
+
+/* BAR STYLE */
+
+.elementor-horizontal-bar::after{
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 640px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: var(--color-secondary-1);
+    text-align: center;
+}
+
+.elementor-bar::after{
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 6px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: var(--color-secondary-1);
+    text-align: center;
+}
+
+.elementor-circle::after{
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 6px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: var(--color-secondary-1);
+    text-align: center;
+}
+
+/* TEXT SHADOW */
+.elementor-text-shadow{
+    text-shadow: var(--drop-shadow);
+}
+

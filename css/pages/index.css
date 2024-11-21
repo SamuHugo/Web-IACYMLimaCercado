@@ -1,0 +1,1597 @@
+@import url(../components/model-card-slider.css);
+
+.hidden{
+    overflow: hidden;
+  }
+  
+/* #region SECTION / CARRUSEL*/
+.container__banner{
+    width: 100%;
+    height: 95vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../../img/slider/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.content__banner{
+    position: absolute;
+    top: 40%;left: 10%;right: 0;bottom: 0;
+    margin: auto;
+    color: var(--color-white);
+}
+
+.section__banner{
+    max-width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.section__banner p{
+    font-size: 36px;
+}
+
+.section__banner h1{
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.section__banner p:last-of-type{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.banner-content-btn-boxs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-content-btn {
+    margin-top: 25px;
+}
+
+.banner-content-btn>a {
+    margin-right: 15px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .content__banner{
+        top: 42%;left: 7%;right: 0;bottom: 0;
+    }
+    
+    .section__banner{
+        max-width: 600px;
+        height: 400px;
+    }
+    
+    .section__banner p{
+        font-size: 30px;
+    }
+    
+    .section__banner h1{
+        font-size: 44px;
+        line-height: 35px;
+    }
+    
+    .section__banner p:last-of-type{
+        font-size: 16px;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .content__banner{
+        position: absolute;
+        top: 35%;left: 7%;right: 0;bottom: 0;
+        margin: auto;
+        color: var(--color-white);
+    }
+    
+    .section__banner{
+        max-width: 600px;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    .section__banner p{
+        font-size: 30px;
+    }
+    
+    .section__banner h1{
+        font-size: 44px;
+        line-height: 35px;
+    }
+    
+    .section__banner p:last-of-type{
+        font-size: 16px;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .content__banner{
+        width: 90%;
+        position: initial;
+        top: 0;left: 0;right: 0;bottom: 0;
+        margin-top: 130px;
+    }
+    
+    .section__banner{
+        max-width: 600px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .section__banner p{
+        font-size: 25px;
+    }
+    
+    .section__banner h1{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    
+    .section__banner p:last-of-type{
+        font-size: 16px;
+        margin-top: 35px;
+    }
+    
+    .banner-content-btn-boxs{
+        display: block;
+    }
+    
+    .banner-content-btn-boxs:last-of-type{
+        padding-bottom: 30px;
+    }
+    
+    .banner-content-btn {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .banner-content-btn>a {
+        margin-right: 15px;
+    }
+}
+
+/* #endregion */
+
+/* #region WELCOME */
+.container__welcome{
+    margin: 40px auto 60px auto;
+    max-width: 100%;
+}
+
+.welcome__article{
+    text-align: center;
+}
+
+.welcome__article h1{
+    padding: 0 4%;
+    margin-top: 25px;
+    color: var(--color-primary-1);
+}
+
+.welcome__article p{
+    margin-top: 30px;
+    color: var(--color-title-2);
+}
+
+.welcome__article img{
+    width: 200px;
+    margin: 20px auto 10px auto;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .welcome__article p{
+        padding: 0 6%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .welcome__article p{
+        padding: 0 4%;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 767px) and (min-width: 280px){
+    .welcome__article p{
+        padding: 0 4%;
+    }
+
+    .welcome__article img{
+        width: 100px;
+        margin: 20px auto 10px auto;
+    }
+}
+
+/* #endregion */
+
+/* #region LASTS CULTS*/
+.container__lasts-cults{
+    margin: 80px auto 20px auto;
+    max-width: 1000px;
+    height: 530px;
+    padding: 0 20px;
+}
+
+.lasts-cults__section{
+    text-align: center;
+}
+
+.lasts-cults__section h1{
+    margin-top: 10px;
+    color: var(--color-primary-1);
+}
+
+.lasts-cults__section p{
+    margin-top: 30px;
+    color: var(--color-title-2);
+}
+
+.container__card-lc{
+    margin: 20px auto 0 auto;
+}
+
+.card__lc-box{
+    display: flex;
+}
+
+.card__lc{
+    width: 270px;
+    margin: auto;
+}
+
+.card__lc-img{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px var(--color-p-blank) solid;
+}
+
+.card__lc-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__lc-info{
+    text-align: center;
+    color: var(--color-title-2);
+}
+
+.card__lc-info h1{
+    margin-top: 22px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card__lc-info p{
+    margin-top: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card__lc-info p>i{
+    font-size: 15px;
+}
+
+.btn_lasts-cults{
+    margin: 60px auto 0px auto;
+    text-align: center;
+}
+
+
+@media (max-width: 991px) and (min-width: 767px){
+
+    .container__lasts-cults{
+        height: auto;
+    }
+    
+    .lasts-cults__section h1{
+        margin-top: 10px;
+        color: var(--color-primary-1);
+    }
+    
+    .lasts-cults__section p{
+        margin-top: 30px;
+    }
+    
+    .container__card-lc{
+        margin: 20px auto 0px auto;
+        max-width: 770px;
+    }
+    
+    
+    .card__lc{
+        width: 220px;
+    }
+    
+    .card__lc-img{
+        height: 120px;
+    }
+    
+    .card__lc-img img{
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .card__lc-info{
+        text-align: center;
+        color: var(--color-title-2);
+    }
+    
+    .card__lc-info h1{
+        margin-top: 22px;
+        font-family: 'Lexend', sans-serif;
+        font-family: 'Lexend';
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .card__lc-info p{
+        margin-top: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    .card__lc-info p>i{
+        font-size: 15px;
+    }
+    
+    .btn_lasts-cults{
+        margin: 60px auto 0px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__lasts-cults{
+        max-width: 500px;
+        height: auto;
+        padding: 0 10px;
+    }
+    .lasts-cults__section h1{
+        margin-top: 10px;
+    }
+    
+    .lasts-cults__section p{
+        margin-top: 20px;
+    }
+    
+    .container__card-lc{
+        margin: 20px auto 0px auto;
+    }
+    
+    .card__lc-box{
+        display: block;
+    }
+    
+    .card__lc{
+        width: 250px;
+        margin: 0 auto 30px auto;
+    }
+    
+    .card__lc-img{
+        height: 130px;
+    }
+    
+    .card__lc-info h1{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .card__lc-info p{
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    
+    .card__lc-info p>i{
+        font-size: 13px;
+    }
+    
+    .btn_lasts-cults{
+        margin: 50px auto 0px auto;
+        text-align: center;
+    }
+}
+
+/* #endregion */
+
+/* #region OFFERINGS */
+
+        /*MODAL*/
+
+.modal-description-offerings{
+    text-align: center;
+    color: var(--color-p);
+    margin: 20px 0;
+}
+
+.element-dividor{
+    content: "";
+    border-top: 1px #797979 solid;
+}
+
+.modal-offerings-title{
+    display: inline-flex;
+    height: 36px;
+    color: #121213;
+}
+
+.modal-offerings-title img{
+    width: 65px;
+}
+
+.modal-offerings-title>p{
+    margin-left: 10px;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.accounts-offerings{
+    padding: 10px 0;
+    color: #797979;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account-soles p, .account-inter p{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+
+.msg-agradecimiento{
+    width: 70%;
+    margin: 50px auto 10px auto;
+}
+
+.msg-agradecimiento p{
+    color: var(--color-secondary-2);
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 767px) and (min-width: 470px){
+    .account-inter{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 469px) and (min-width: 280px){
+    .modal-offerings-title img{
+        width: 45px;
+    }
+
+    .modal-offerings-title>p{
+        margin-left: 5px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+
+    .account-inter{
+        margin-top: 20px;
+    }
+
+    .account-soles p, .account-inter p{
+        font-size: 14px;
+    }
+
+    .msg-agradecimiento{
+        width: 90%;
+        margin: 50px auto 10px auto;
+    }
+    
+}
+
+
+
+            /*CONTAINER*/
+
+    .container-section-ofrendas{
+        max-width: 100%;
+        height: 600px;
+        margin: 0 auto 30px auto;
+        clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+        background-image: url(../../img/offerings/offerings.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+
+    .section-ofrendas{
+        padding-top: 80px;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        backdrop-filter: blur(5px);
+    }
+
+    .section-ofrendas p{
+        margin: 50px auto 0 auto;
+        max-width: 700px;
+        color: var(--color-white);
+        font-family: 'Domine', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 50px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 4, 1);
+        transition: all .5s ease-in-out;
+    }
+
+    .section-ofrendas>p>span{
+        color: var(--color-white);
+        font-family: 'Jost', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    @media (max-width: 767px) and (min-width: 280px){
+        .container-section-ofrendas{
+            max-width: 95%;
+            height: max-content;
+            margin: 30px auto;
+            clip-path: none;
+            border-radius: 20px;
+        }
+
+        .section-ofrendas{
+            padding: 30px 10px;
+        }
+
+        .section-ofrendas p{
+            margin: 30px auto 0 auto;
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .section-ofrendas>p>span{
+            font-size: 16px;
+        }
+    }
+
+
+/* #endregion*/
+ 
+/* #region ACADEMIA BIBLICA*/
+.container__academy{
+    margin: 20px auto 0px auto;
+    max-width: 1000px;
+    height: 520px;
+    border-radius: 30px;
+    background-color: var(--color-white-alt);
+    overflow: hidden;
+}
+
+.container__academy-left{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.container__academy-img{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.container__academy-img img{
+    width: 100;
+    height: 100%;
+    object-fit: cover;
+}
+.academy__section{
+    margin-top: 35px;
+}
+
+.academy__section h1{
+    text-align: center;
+    color: var(--color-primary-1);
+}
+
+.academy__section p{
+    margin: 25px auto 0px auto;
+    width: 85%;
+    text-align: center;
+    color: var(--color-title-2);
+}
+
+.container__card-academy{
+    margin: 40px auto 20px auto;
+    background-color: var(--color-primary-1);
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card__academy-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.card__academy-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__academy-info{
+    left: 220px;
+    top: 30px;
+    position: absolute;
+}
+
+.card__academy-info h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: var(--color-white);
+    width: 90%;
+    text-align: left;
+}
+
+.btn_academy-register{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn__academy{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .container__academy{
+        max-width: 850px;
+        height: 520px;
+    }
+
+    .container__card-academy{
+        margin: 55px auto 35px auto;
+        width: 340px;
+        height: 180px;
+        border-radius: 30px;
+    }
+    
+    .card__academy-img{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    
+    .card__academy-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .card__academy-info{
+        left: 180px;
+        top: 30px;
+        position: absolute;
+    }
+    
+    .card__academy-info h2{
+        font-family: 'Jost', sans-serif;
+        font-size: 16px;
+        color: var(--color-white);
+        width: 90%;
+        text-align: left;
+    }
+    
+    .btn_academy-register{
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .container__academy{
+        max-width: 700px;
+        height: 520px;
+    }
+
+    .container__card-academy{
+        margin: 55px auto 50px auto;
+        width: 300px;
+        height: 160px;
+        border-radius: 30px;
+    }
+    
+    .card__academy-img{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    
+    .card__academy-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .card__academy-info{
+        left: 160px;
+        top: 20px;
+        position: absolute;
+    }
+    
+    .card__academy-info h2{
+        font-family: 'Jost', sans-serif;
+        font-size: 14px;
+        color: var(--color-white);
+        width: 90%;
+        text-align: left;
+    }
+    
+    .btn_academy-register{
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__academy{
+        margin: 20px auto 0px auto;
+        max-width: 95%;
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    .container__academy-left{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container__academy-img{
+        display: none;
+        float: none;
+    }
+
+    .academy__section{
+        margin-top: 35px;
+    }
+    
+    .academy__section p{
+        width: 85%;
+    }
+    
+    .container__card-academy{
+        margin: 30px auto 30px auto;
+        width: 80%;
+        height: 310px;
+        position: static;
+    }
+    
+    .card__academy-img{
+        width: 100%;
+        height: 170px;
+        float: none;
+    }
+    .card__academy-info{
+        left: auto;
+        top: auto;
+        position: static;
+    }
+    
+    .card__academy-info h2{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .btn_academy-register{
+        margin-top: 20px;
+        margin-left: auto;
+        text-align: center;
+    }
+    
+    .btn__academy{
+        margin-left: auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+/* #endregion */
+
+/* #region REDES*/
+.container__redes{
+    margin: 60px auto 0px auto;
+    background-color: var(--color-white-alt);
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 900px;
+    height: 500px;
+    position: relative;
+}
+
+.container__redes-section{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.redes__section{
+    margin: auto;
+}
+
+.redes__section h3{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'lexend', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--color-primary-1);
+}
+
+.redes__section h1{
+    text-align: center;
+    font-family: 'lexend', sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--color-secondary-4);
+}
+
+.redes__section p{
+    margin: 40px auto 0px auto;
+    width: 90%;
+    text-align: center;
+    color: var(--color-p);
+}
+
+.btn__redes{
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+.container__redes-img{
+    left: 450px;
+    width: 100%;
+    height: 500px;
+    clip-path: circle(60% at 50% 50%);
+    position: absolute;
+    overflow: hidden;
+}
+
+.container__redes-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+    .container__redes{
+        margin: 45px auto 0px auto;
+        max-width: 750px;
+        height: 400px;
+    }
+
+    .redes__section{
+        margin-left: 40px;
+    }
+    
+    .redes__section h3{
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    
+    .redes__section h1{
+        font-size: 68px;
+    }
+    
+    .redes__section p{
+        margin: 30px auto 0px auto;
+    }
+    
+    .btn__redes{
+        margin-left: 29%;
+        margin-top: 40px;
+    }
+    
+    .container__redes-img{
+        left: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container__redes{
+        margin: 45px auto 0px auto;
+        max-width: 700px;
+        height: 400px;
+    }
+
+    .redes__section{
+        margin-left: 40px;
+    }
+    
+    .redes__section h3{
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    
+    .redes__section h1{
+        font-size: 68px;
+    }
+    
+    .redes__section p{
+        margin: 30px auto 0px auto;
+    }
+    
+    .btn__redes{
+        margin-left: 29%;
+        margin-top: 40px;
+    }
+    
+    .container__redes-img{
+        left: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .container__redes{
+        border-radius: 20px;
+        max-width: 85%;
+        height: auto;
+        position: static;
+    }
+    
+    .container__redes-section{
+        float: none;
+        width: 100%;
+    }
+
+    .redes__section h3{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    
+    .redes__section h1{
+        font-size: 65px;
+    }
+    
+    .btn__redes{
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .container__redes-img{
+        display: none;
+    }
+}
+/* #endregion */
+
+/* #region EVANGELIO CUADRUPLE */
+.container__creemos{
+    margin: 100px auto 50px auto;
+    max-width: 1000px;
+}
+
+.heading__creemos h1{
+    text-align: center;
+    color: var(--color-primary-1);
+}
+
+.container__creemos-box{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.creemos-box{
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.creemos-box h1{
+    margin-top: 5px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-title-1);
+    text-transform: uppercase;
+}
+
+.creemos-box p{
+    text-align: center;
+    color: var(--color-title-2);
+}
+
+.creemos-box-img-1{
+    margin: auto auto 20px auto;
+    width: 50%;
+    height: 50%;
+}
+
+.creemos-box-img-2{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    margin-top: 30px;
+}
+
+.creemos-box-img-3{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    margin-top: 30px;
+}
+
+.creemos-box-img-4{
+    margin: auto;
+    width: 30%;
+    height: 30%;
+    margin-top: 35px;
+}
+
+.creemos-box-img-5{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.creemos-box-img-med{
+    width: 100%;
+    height: 100%;
+}
+/* #endregion */
+
+/* #region MISIONES */
+.container__misiones{
+    margin: 20px auto 0 auto;
+    max-width: 1100px;
+    min-height: 920px;
+    overflow: hidden;
+}
+
+.elementor-text-bottom-misiones{
+    margin-top: 570px;
+}
+
+.content__misiones{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.heading__misiones{
+    position: relative;
+}
+
+.misiones__background{
+    position: absolute;
+    right: 0;
+    max-width: 860px;
+}
+
+.misiones__section{
+    position: absolute;
+    left: 2px;
+    top: 250px;
+}
+
+.misiones__section h3{
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--color-primary-1);
+}
+
+.misiones__section h1{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: var(--color-secondary-4);
+}
+
+.misiones__section>p{
+    margin-top: 30px;
+    width:400px;
+    color: var(--color-primary-1);
+}
+
+      @media(max-width: 1199px) and (min-width: 992px) {
+
+        .container__misiones{
+            max-width: 900px;
+            min-height: 720px;
+        }
+        
+        .elementor-text-bottom-misiones{
+            margin-top: 420px;
+        }
+        
+        
+        .misiones__background{
+            position: absolute;
+            right: 0;
+            max-width: 720px;
+        }
+        
+        .misiones__section{
+            position: absolute;
+            left: 2px;
+            top: 200px;
+        }
+        
+        .misiones__section h3{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        
+        .misiones__section h1{
+            font-size: 45px;
+            line-height: 50px;
+        }
+        
+        .misiones__section>p{
+            margin-top: 20px;
+            width:370px;
+        }
+    }
+      
+      @media (max-width: 991px) and (min-width: 768px) {
+        
+        .container__misiones{
+            max-width: 750px;
+            min-height: auto;
+            padding: 0 10px;
+        }
+        
+        .elementor-text-bottom-misiones{
+            margin-top: 50px;
+            padding: 10px 0;
+        }
+        
+        .content__misiones{
+            position: static;
+        }
+        
+        .heading__misiones{
+            position: static;
+        }
+        
+        .misiones__background{
+            position: static;
+            margin: auto;
+        }
+
+        .misiones__background img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .misiones__section{
+            position: static;
+            text-align: center;
+        }
+        
+        .misiones__section h3{
+            font-size: 24px;
+        }
+        
+        .misiones__section h1{
+            font-size: 50px;
+            line-height: 50px;
+        }
+        
+        .misiones__section>p{
+            text-align: center;
+            margin: 20px auto 30px auto;
+        }
+
+      }
+
+      @media (max-width: 767px) and (min-width: 425px){
+
+        .container__misiones{
+            max-width: 410px;
+            min-height: auto;
+            padding: 0 10px;
+        }
+        
+        .elementor-text-bottom-misiones{
+            margin-top: 40px;
+            padding: 10px 0;
+            font-size: 12px;
+        }
+        
+        .content__misiones{
+            position: static;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .heading__misiones{
+            position: static;
+        }
+        
+        .misiones__background{
+            position: static;
+            margin: auto;
+            width: 100%;
+            height: 250px;
+        }
+
+        .misiones__background img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .misiones__section{
+            position: static;
+            text-align: center;
+        }
+        
+        .misiones__section h3{
+            font-size: 20px;
+        }
+        
+        .misiones__section h1{
+            font-size: 38px;
+            line-height: 38px;
+        }
+        
+        .misiones__section>p{
+            text-align: center;
+            width: 90%;
+            margin: 20px auto 20px auto;
+        }
+
+        }
+
+      @media (max-width: 424px) and (min-width: 280px){
+
+        .container__misiones{
+            max-width: 360px;
+            min-height: auto;
+            padding: 0 10px;
+        }
+        
+        .elementor-text-bottom-misiones{
+            margin-top: 35px;
+            padding: 10px 0;
+            font-size: 12px;
+        }
+        
+        .content__misiones{
+            position: static;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .heading__misiones{
+            position: static;
+        }
+        
+        .misiones__background{
+            position: static;
+            margin: auto;
+            width: 100%;
+            height: 180px;
+        }
+
+        .misiones__background img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .misiones__section{
+            position: static;
+            text-align: center;
+        }
+        
+        .misiones__section h3{
+            font-size: 18px;
+        }
+        
+        .misiones__section h1{
+            font-size: 36px;
+            line-height: 36px;
+        }
+        
+        .misiones__section>p{
+            text-align: center;
+            width: 90%;
+            margin: 20px auto 20px auto;
+        }
+      }
+       
+/* #endregion */
+
+/* #region HORARIOS */
+.container__horarios{
+    max-width: 100%;
+    background-image: url(../../img/vida_iglesia/img_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+
+.content__horarios{
+    max-width: 1100px;
+    height: 450px;
+    margin: 100px auto;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.horarios__section{
+    text-align: center;
+}
+
+.horarios__section h3{
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-secondary-4);
+}
+
+.horarios__section h1{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--color-white);
+}
+
+.horarios__section p{
+    width: 70%;
+    color: var(--color-white);
+    text-shadow: var(--drop-shadow);
+    margin: 30px auto 40px auto;
+}
+
+.container__horarios-box{
+    display: flex;
+    margin: auto;
+    width: min-content;
+    gap: 80px;
+}
+
+.horarios-box{
+    background-color: var(--color-white);
+    width: 270px;
+    height: 160px;
+    border-radius: 30px;
+    font-family: 'Jost', sans-serif;
+    overflow: hidden;
+}
+
+.box-day{
+    background-color: var(--color-primary-2);
+    height: 50px;
+}
+
+.box-day h3{
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--color-white);
+    text-align: center;
+    line-height: 50px;
+}
+
+.box-horario p{
+    margin-top: 22px;
+    font-size: 20px;
+    color:  var(--color-secondary-4);
+    text-align: center;
+    font-weight: 500;
+}
+
+.box-horario span{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color-title-2);
+}
+
+@media (max-width: 1199px) and (min-width: 992px){    
+    .content__horarios{
+        max-width: 900px;
+        height: 470px;
+    }
+    
+    .horarios__section{
+        text-align: center;   
+    }    
+    
+    .container__horarios-box{
+        display: flex;
+        margin: auto;
+        width: min-content;
+        gap: 60px;
+    }
+    
+    .horarios-box{
+        width: 230px;
+        height: 130px;
+        border-radius: 25px;
+    }
+    
+    .box-day{
+        height: 40px;
+    }
+    
+    .box-day h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .box-horario p{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .box-horario span{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .content__horarios{
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .horarios__section{
+        text-align: center;
+        
+    }
+    
+    .horarios__section h3{
+        font-size: 26px;
+    }
+    
+    .horarios__section h1{
+        font-size: 65px;
+    }
+
+    .horarios__section p{
+        width: 80%;
+    }
+    
+    .container__horarios-box{
+        display: block;
+        margin: auto;
+        width: min-content;
+        gap: 0;
+    }
+    
+    .horarios-box{
+        width: 230px;
+        height: 140px;
+        margin-bottom: 40px;
+        border-radius: 25px;
+    }
+    
+    .box-day{
+        height: 40px;
+    }
+    
+    .box-day h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .box-horario p{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .box-horario span{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 280px){
+    .content__horarios{
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .horarios__section{
+        text-align: center;
+        
+    }
+    
+    .horarios__section h3{
+        font-size: 18px;
+    }
+    
+    .horarios__section h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .horarios__section p{
+        width: 90%;
+        font-size: 16px;
+    }
+    
+    .container__horarios-box{
+        display: block;
+        margin: auto;
+        width: min-content;
+        gap: 0;
+    }
+    
+    .horarios-box{
+        width: 230px;
+        height: 140px;
+        margin-bottom: 40px;
+        border-radius: 25px;
+    }
+    
+    .box-day{
+        height: 40px;
+    }
+    
+    .box-day h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .box-horario p{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    
+    .box-horario span{
+        font-size: 15px;
+    }
+}
+
+/* #endregion */
+

@@ -1,0 +1,60 @@
+.container__banner-donativos{
+    width: 100%;
+    height: 700px;
+    background: url(https://images.unsplash.com/photo-1510590337019-5ef8d3d32116?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 82%);
+}
+
+.content__banner-donativos{
+    width: 50%;
+    color: var(--color-white);
+    padding: 200px 50px;
+    text-shadow: rgb(0, 0, 0) 2px 0 10px;
+}
+
+.container__canales-donativos{
+    width: 100%;
+}
+.content__canales-donativos>h1{
+    text-align: center;
+    color: var(--color-secondary-1);
+}
+
+.canales-donativos__container-box{
+    width: 80%;
+    margin: 0 10%;
+    overflow: hidden;
+}
+
+.canales-donativos__content-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.canales-donativos__box{
+}
+
+.canales-donativos__box:first-of-type>p{
+    font-size: 22px;
+}
+
+.canales-donativos__moviles{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.canales-donativos__moviles-box{
+    margin: 20px;
+}
+
+.canales-donativos__moviles-box>img{
+    min-width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: var(--rounded-corner-s);
+}

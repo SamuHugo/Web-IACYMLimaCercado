@@ -1,0 +1,214 @@
+main{
+    background-color: #FFFFFF;
+}
+
+/* #region BANNER */
+.container__banner{
+    height: 690px;
+    background: linear-gradient(180deg, #000000 9.95%, rgba(0, 0, 0, 0.34) 29.95%, rgba(0, 0, 0, 0) 57.96%), linear-gradient(0deg, #FFFFFF 2.05%, #FFFFFF 2.06%, rgba(255, 255, 255, 0.88) 13.72%, rgba(255, 255, 255, 0) 34.89%), url(../../img/about-us/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.content__banner{
+    margin-top: 12%;
+    text-align: center;
+    color: var(--color-white);
+    text-shadow: var(--drop-shadow);
+}
+
+.title-banner{
+    font-size: 90px;
+    line-height: 20px;
+}
+
+.title-banner-stroke{
+    font-size: 82px;
+    -webkit-text-stroke: 2px var(--color-white);
+    color: transparent;
+}
+/* #endregion */
+
+/* #region MESSAGE */
+
+.container__message{
+    max-width: 80%;
+    margin: 80px auto;
+}
+
+.section__message{
+    text-align: center;
+}
+
+.title-message{
+    font-size: 40px;
+    color: var(--color-secondary-1);
+}
+
+.text-message{
+    width: 70%;
+    margin: 30px auto;
+    color: var(--color-p);
+}
+
+.pastor-message{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: var(--color-title-2);
+}
+
+.pastor-message::after{
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 150px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: var(--color-secondary-1);
+    text-align: center;
+}
+
+/* #endregion */
+
+/* #region HISTORY CHURCH */
+
+.container__history-church{
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.heading__history-church{
+    text-align: center;
+}
+
+.title-history-church{
+    font-size: 48px;
+    color: var(--color-secondary-1);
+}
+
+.box__center-history{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.title-box{
+    font-size: 46px;
+    letter-spacing: 0.05em;
+    color: var(--color-secondary-2);
+}
+
+.title-box-alt{
+    font-size: 46px;
+    letter-spacing: 0.05em;
+    color: var(--color-primary-1);
+}
+
+.history-cover-center{
+    width: 420px;
+    margin: auto;
+    height: 260px;
+    overflow: hidden;
+}
+
+.history-cover>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box__history{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.history-cover{
+    width: 420px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.box-info-r{
+    width: 40%;
+    text-align: right;
+}
+
+.box-info-l{
+    width: 40%;
+    text-align: left;
+}
+
+.description-box{
+    margin-top: 20px;
+    color: var(--color-primary-1);
+}
+
+.box-info-r .description-box{
+    margin-left: 20%;
+}
+
+.box-info-l .description-box{
+    margin-right: 20%;
+}
+/* #endregion */
+
+/* #region BIBLE VERSE */
+
+.container__bible-verse{
+    max-width: 60%;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 3%;
+}
+
+.section__bible-verse{
+    padding: 30px;
+    position: relative;
+}
+
+.bible-verse,
+.reference{
+    font-family: 'Domine', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.quote{
+    position: absolute;
+    font-family: 'Palanquin', sans-serif;
+    font-style: normal;
+    font-size: 130px;
+    line-height: 80px;
+    color: var(--color-secondary-1);
+}
+
+.quote:first-of-type{
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.quote:last-of-type{
+    bottom: 40px;
+    right: 22%;
+}
+
+.bible-verse{
+    font-size: 32px;
+    color: var(--color-primary-1);
+}
+
+.reference{
+    font-size: 28px;
+    margin-top: 30px;
+    color: var(--color-primary-2);
+}
+
+/* #endregion */
+

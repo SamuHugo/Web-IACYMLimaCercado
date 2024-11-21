@@ -1,0 +1,1301 @@
+@import '../css/base/fonts.css';
+
+/* #region BANNER*/
+.container__banner {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/vida_iglesia/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content__banner {
+    padding-top: 200px;
+}
+
+.content__banner>h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 120px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.content__banner>h1>span {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 170px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+/* #endregion */
+
+/* #region WELCOME */
+.container__welcome {
+    max-width: 950px;
+    margin: 80px auto;
+}
+
+.content__welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title__welcome h1 {
+    margin: auto;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: var(--color-primary-1);
+}
+
+.title__welcome p {
+    margin-top: 40px;
+    padding: 11px 20px;
+    font-family: 'junge', serif;
+    font-size: 22px;
+    background-color: var(--color-primary-1);
+    color: var(--color-white);
+    border-radius: 50px;
+    width: max-content;
+}
+
+.msj__welcome {
+    max-width: min-content;
+}
+
+.img-msj__welcome {
+    width: 650px;
+    height: 300px;
+    background: linear-gradient(90deg, #FFFFFF 5.21%, rgba(255, 255, 255, 0) 30.21%), url(../../img/vida_iglesia/img_01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.msj__welcome>p:first-of-type {
+    top: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'junge', serif;
+    font-size: 22px;
+    text-align: right;
+    color: var(--color-p);
+}
+
+.tag-pastor {
+    display: none;
+    margin-top: 40px;
+    padding: 8px 17px;
+    background-color: var(--color-primary-1);
+    color: var(--color-white);
+    border-radius: 50px;
+    max-width: max-content;
+}
+
+/* #endregion */
+
+/* #region  WHAT GDV*/
+
+.section__gdv {
+    text-align: center;
+}
+
+.section__gdv h1 {
+    color: var(--color-primary-1);
+}
+
+.section__gdv>p {
+    width: 70%;
+    margin: 20px auto 40px auto;
+    color: var(--color-p);
+}
+
+.section__gdv-img {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border-radius: 25px;
+    background: url(../../img/vida_iglesia/img_02.jpg);
+    background-size: cover;
+}
+
+/* #endregion */
+
+/* #region BELONG GDV */
+
+/* MODAL */
+
+.modal-description-belong-gdv {
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-title-2);
+    margin-bottom: 30px;
+}
+
+.form-comment {
+    color: var(--color-secondary-1);
+}
+
+/*--CONTAINER--*/
+.container__belong-gdv {
+    max-width: 1000px;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--color-background);
+    border-radius: 25px;
+}
+
+.text-bottom {
+    position: absolute;
+    width: max-content;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.content__belong-gdv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-belong-gdv {
+    width: 40%;
+    height: 520px;
+    background: linear-gradient(269.43deg, rgba(255, 255, 255, 0) -0.98%, #EFEFEF 92.91%), url(../../img/vida_iglesia/img_03.jpg);
+    background-position: top;
+    background-size: cover;
+
+}
+
+.article__belong-gdv {
+    width: 45%;
+    padding-left: 60px;
+    margin-top: 80px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.article__belong-gdv>h1 {
+    text-align: left;
+    color: var(--color-primary-1);
+    line-height: 40px;
+}
+
+.article__belong-gdv>p {
+    text-align: left;
+    color: var(--color-p);
+    margin: 50px 0;
+}
+
+.article__belong-gdv>span {
+    color: var(--color-secondary-1);
+}
+
+.btn__belong-gdv {
+    margin-top: 30px;
+}
+
+/* #endregion */
+
+/* #region STEP ONE */
+
+.container__step-one {
+    max-width: 1150px;
+    height: 600px;
+    margin: auto;
+    background-color: var(--color-primary-1);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.content__step-one {
+    display: inline-flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.img-step-one {
+    width: 55%;
+    height: 600px;
+    background: linear-gradient(270.32deg, #1F3463 4.11%, rgba(14, 24, 46, 0.463542) 30.76%, rgba(0, 0, 0, 0) 69.72%), url(../..//img/vida_iglesia/img_04.jpg);
+    background-position-y: center;
+    background-position-x: right;
+    background-size: cover;
+}
+
+.article__step-one {
+    width: 45%;
+    color: var(--color-white);
+    text-align: center;
+    padding: 50px;
+}
+
+.article__step-one>h1 {
+    margin-top: 70px;
+}
+
+.article__step-one>p {
+    text-align: right;
+    margin: 50px 0;
+}
+
+.btn__step-one {
+    width: max-content;
+}
+
+/* #endregion */
+
+/* #region BIBLE ACADEMY */
+
+.container__bible-academy {
+    max-width: 1100px;
+    margin: 40px auto;
+    height: 550px;
+}
+
+.content__bible-academy {
+    padding: 40px;
+}
+
+.section__bible-academy {
+    text-align: center;
+}
+
+.section__bible-academy h1 {
+    color: var(--color-primary-1);
+}
+
+.section__bible-academy>p {
+    color: var(--color-title-2);
+    margin: 30px 100px 0 100px;
+}
+
+.container__card-bible-academy {
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__bible-academy {
+    max-width: 350px;
+}
+
+.img__card-bible-academy {
+    height: 220px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.img__card-bible-academy>img {
+    width: 100%;
+    height: 100%;
+}
+
+.content__card-bible-academy {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.title-card-bible-academy {
+    font-family: 'Julius sans one', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.btn__academy {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* #endregion */
+
+/* #region DONATIONS */
+
+.container__donations {
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+    overflow: hidden;
+}
+
+.content__donations>h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--color-primary-1);
+}
+
+.bank-accounts__donations {
+    background-color: var(--color-background);
+    border-radius: 25px;
+    overflow: hidden;
+    height: 250px;
+    display: flex;
+    flex: wrap;
+}
+
+.info__bank-accounts {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.content__info-bank-accounts {
+    margin-top: 20%;
+}
+
+.info__bank-accounts:nth-of-type(1) {
+    background-color: var(--color-secondary-1);
+}
+
+.info__bank-accounts:nth-of-type(2) {
+    background-color: var(--color-p);
+}
+
+.info__bank-accounts:nth-of-type(3) {
+    background-color: var(--color-title-2);
+}
+
+.title-bank,
+.name-bank,
+.number-account {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.title-bank,
+.name-bank {
+    font-size: 24px;
+}
+
+.number-account {
+    font-size: 20px;
+}
+
+
+/* #endregion */
+
+/* #region FLEX OPTIONS*/
+
+.container__grid-template-vi {
+    max-width: 1000px;
+    margin: 80px auto 40px;
+    overflow: hidden;
+}
+
+.line-divisor {
+    color: #8E8E8E;
+
+}
+
+.content__wrapper-box-options-vi {
+    width: max-content;
+    margin: 30px auto 0;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.box-options-vi {
+    width: 320px;
+    height: 200px;
+    margin: auto;
+    background-color: #8E8E8E;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: all ease .9s;
+}
+
+.box-options-vi:hover {
+    transform: scale(.9);
+}
+
+.box-options-vi:nth-of-type(1) {
+    background: linear-gradient(113.02deg, #E10A0A -6.18%, rgba(208, 6, 130, 0.696458) 46.77%, rgba(189, 2, 255, 0.38) 91.58%), url(../../img/vida_iglesia/eres-nuevo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-options-vi:nth-of-type(2) {
+    background: linear-gradient(113.02deg, #C30AE1 -6.18%, rgba(208, 6, 130, 0.696458) 20.29%, rgba(255, 63, 2, 0.72) 91.58%), url(../../img/vida_iglesia/necesitas-oracion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-options-vi:nth-of-type(3) {
+    background: linear-gradient(113.02deg, #E1580A -6.18%, rgba(223, 156, 7, 0.88625) 53.9%, rgba(220, 255, 2, 0.72) 91.58%), url(../../img/vida_iglesia/actividades.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-options-vi:nth-of-type(4) {
+    background: linear-gradient(113.02deg, #E1580A -6.18%, rgba(223, 59, 7, 0.88625) 53.9%, rgba(255, 199, 2, 0.72) 91.58%), url(../../img/vida_iglesia/misiones.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-options-vi:nth-of-type(5) {
+    background: linear-gradient(110.47deg, #FFC702 -3.09%, rgba(255, 107, 2, 0.86875) 59.44%, rgba(255, 2, 2, 0.72) 97.79%), url(../../img/vida_iglesia/ofrendas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-options-vi:nth-of-type(6) {
+    background: linear-gradient(110.47deg, #FF0202 -3.09%, rgba(144, 2, 131, 0.857083) 56.28%, rgba(38, 2, 255, 0.72) 97.79%), url(../../img/vida_iglesia/jovenes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.selector-options-vi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    place-items: center;
+}
+
+.text-box-vi {
+    text-align: center;
+    margin: auto;
+    padding: 0 60px;
+    color: var(--color-white);
+}
+
+
+/* #endregion */
+
+
+@media (max-width: 1366px) and (min-width: 1200px) {
+
+    /* #region BANNER*/
+    .content__banner>h1 {
+        font-size: 90px;
+    }
+
+    .content__banner>h1>span {
+        font-size: 140px;
+    }
+
+    /* #endregion */
+
+    /* #region STEP ONE */
+
+    .container__step-one {
+        max-width: 1050px;
+        height: 550px;
+    }
+
+    .article__step-one {
+        width: 45%;
+        color: var(--color-white);
+        text-align: center;
+        padding: 50px;
+    }
+
+    .article__step-one>h1 {
+        margin-top: 70px;
+    }
+
+    .article__step-one>p {
+        text-align: right;
+        margin: 50px 0;
+    }
+
+    .btn__step-one {
+        width: max-content;
+    }
+
+    /* #endregion */
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    /* #region BANNER*/
+    .container__banner {
+        height: 600px;
+    }
+
+    .content__banner {
+        padding-top: 250px;
+    }
+
+    .content__banner>h1 {
+        font-size: 80px;
+    }
+
+    .content__banner>h1>span {
+        font-size: 110px;
+    }
+
+    /* #endregion */
+
+    /* #region WELCOME */
+    .container__welcome {
+        max-width: 750px;
+        margin: 80px auto;
+    }
+
+    .title__welcome h1 {
+        margin-top: 80px;
+    }
+
+    .title__welcome p {
+        font-size: 20px;
+    }
+
+    .img-msj__welcome {
+        width: 450px;
+        height: 200px;
+    }
+
+    .msj__welcome p {
+        font-size: 18px;
+    }
+
+    /* #endregion */
+
+    /* #region  WHAT GDV*/
+
+    .section__gdv-img {
+        width: 80%;
+        height: 300px;
+    }
+
+    /* #endregion */
+
+    /* #region BELONG GDV */
+
+    /* MODAL */
+
+    .modal-description-belong-gdv {
+        text-align: center;
+        font-size: 20px;
+        color: var(--color-title-2);
+        margin-bottom: 30px;
+    }
+
+    .form-comment {
+        color: var(--color-secondary-1);
+    }
+
+    /*--CONTAINER--*/
+    .container__belong-gdv {
+        max-width: 800px;
+        margin: 40px auto;
+    }
+
+    .text-bottom {
+        position: absolute;
+        width: max-content;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .img-belong-gdv {
+        height: 450px;
+    }
+
+    .article__belong-gdv>p {
+        margin: 30px 0;
+        font-size: 16px;
+    }
+
+    .article__belong-gdv>span {
+        font-size: 18px;
+    }
+
+    .btn__belong-gdv {
+        margin-top: 30px;
+    }
+
+    /* #endregion */
+
+    /* #region STEP ONE */
+
+    .container__step-one {
+        max-width: 850px;
+        height: 450px;
+    }
+
+    .img-step-one {
+        height: 450px;
+    }
+
+    .article__step-one {
+        width: 45%;
+        color: var(--color-white);
+        text-align: center;
+        padding: 50px;
+    }
+
+    .article__step-one>h1 {
+        margin-top: 20px;
+    }
+
+    .article__step-one>p {
+        text-align: right;
+        margin: 30px 0;
+        font-size: 16px;
+    }
+
+    .btn__step-one {
+        width: max-content;
+    }
+
+    /* #endregion */
+
+    /* #region BIBLE ACADEMY */
+
+    .container__bible-academy {
+        max-width: 950px;
+        margin: 30px auto;
+        height: 500px;
+    }
+
+    .content__bible-academy {
+        padding: 40px;
+    }
+
+    .section__bible-academy>p {
+        margin: 30px 0px 0;
+    }
+
+    .container__card-bible-academy {
+        justify-content: space-around;
+    }
+
+    .card__bible-academy {
+        max-width: 280px;
+    }
+
+    .img__card-bible-academy {
+        height: 170px;
+    }
+
+    .title-card-bible-academy {
+        font-size: 20px;
+    }
+
+    /* #endregion */
+
+    /* #region DONATIONS */
+
+    .container__donations {
+        max-width: 900px;
+    }
+
+    .bank-accounts__donations {
+        height: 220px;
+    }
+
+    .info__bank-accounts {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .title-bank,
+    .name-bank {
+        font-size: 20px;
+    }
+
+    .number-account {
+        font-size: 18px;
+    }
+
+
+    /* #endregion */
+
+    /* #region FLEX OPTIONS*/
+
+    .container__grid-template-vi {
+        max-width: 900px;
+    }
+
+    .box-options-vi {
+        width: 280px;
+        height: 170px;
+    }
+
+
+    /* #endregion */
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    /* #region BANNER*/
+    .container__banner {
+        width: 100%;
+        height: 450px;
+    }
+
+    .content__banner {
+        padding-top: 140px;
+    }
+
+    .content__banner>h1 {
+        font-size: 60px;
+    }
+
+    .content__banner>h1>span {
+        font-size: 100px;
+    }
+
+    /* #endregion */
+
+    /* #region WELCOME */
+    .container__welcome {
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    .content__welcome {
+        display: block;
+        flex-wrap: none;
+        justify-content: none;
+    }
+
+    .title__welcome {
+        text-align: center;
+    }
+
+    .title__welcome h1 {
+        margin: 50px auto 30px;
+    }
+
+    .title__welcome p {
+        display: none;
+    }
+
+    .msj__welcome {
+        max-width: none;
+    }
+
+    .img-msj__welcome {
+        width: 650px;
+        height: 300px;
+        border-radius: 25px;
+    }
+
+    .msj__welcome p {
+        margin: auto;
+        margin-top: 18px;
+        font-size: 16px;
+    }
+
+    .tag-pastor {
+        display: block;
+    }
+
+    /* #endregion */
+
+    /* #region  WHAT GDV*/
+
+    .section__gdv {
+        text-align: center;
+    }
+
+    .section__gdv h1 {
+        color: var(--color-primary-1);
+    }
+
+    .section__gdv>p {
+        width: 70%;
+        margin: 20px auto;
+        color: var(--color-p);
+    }
+
+    .section__gdv-img {
+        width: 90%;
+        height: 300px;
+    }
+
+    /* #endregion */
+
+    /* #region BELONG GDV */
+
+    /* MODAL */
+
+    .modal-description-belong-gdv {
+        text-align: center;
+        font-size: 20px;
+        color: var(--color-title-2);
+        margin-bottom: 30px;
+    }
+
+    .form-comment {
+        color: var(--color-secondary-1);
+    }
+
+    /*--CONTAINER--*/
+    .container__belong-gdv {
+        max-width: 90%;
+        margin: 40px auto;
+        background: linear-gradient(0deg, rgba(239, 239, 239, 0.79), rgba(239, 239, 239, 0.79)), url(../../img/vida_iglesia/img_03.jpg);
+        background-size: cover;
+        background-position: top;
+        border-radius: 25px;
+    }
+
+    .text-bottom {
+        font-size: 14px;
+    }
+
+    .content__belong-gdv {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .img-belong-gdv {
+        display: none;
+    }
+
+    .article__belong-gdv {
+        width: 90%;
+        padding-left: inherit;
+        margin-top: 80px;
+        margin-right: inherit;
+        margin-left: inherit;
+        margin: 80px auto 20px;
+        text-align: center;
+    }
+
+    .article__belong-gdv>h1 {
+        text-align: center;
+    }
+
+    .article__belong-gdv>p {
+        text-align: center;
+        margin: 30px 0;
+    }
+    /* #endregion */
+
+    /* #region STEP ONE */
+
+    .container__step-one {
+        max-width: 90%;
+        height: 400px;
+        background: linear-gradient(0deg, rgba(31, 52, 99, 1), rgba(31, 52, 99, 0.72)),url(../../img/vida_iglesia/img_04.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-step-one {
+        display: none;
+    }
+
+    .article__step-one {
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .article__step-one>h1 {
+        margin-top: 20px;
+    }
+
+    .article__step-one>p {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    /* #endregion */
+
+    /* #region BIBLE ACADEMY */
+
+    .container__bible-academy {
+        max-width: 90%;
+        margin: 40px auto;
+        height: 500px;
+    }
+
+    .content__bible-academy {
+        padding: 40px;
+    }
+
+    .section__bible-academy {
+        text-align: center;
+    }
+
+    .section__bible-academy>p {
+        margin: 30px 100px 0 100px;
+    }
+
+    .container__card-bible-academy {
+        margin: 40px auto 0 auto;
+    }
+
+    .card__bible-academy {
+        max-width: 220px;
+    }
+
+    .img__card-bible-academy {
+        height: 140px;
+    }
+
+    .content__card-bible-academy {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .title-card-bible-academy {
+        font-size: 18px;
+    }
+
+    /* #endregion */
+
+    /* #region DONATIONS */
+
+    .container__donations {
+        max-width: 60%;
+    }
+
+    .bank-accounts__donations {
+        height: min-content;
+        display: block;
+        flex: none;
+    }
+
+    .info__bank-accounts {
+        padding: 60px 0;
+    }
+
+    .content__info-bank-accounts {
+        margin-top: 0;
+
+    }
+
+
+    /* #endregion */
+
+    /* #region FLEX OPTIONS*/
+
+    .container__grid-template-vi {
+        max-width: 85%;
+        margin: 80px auto 40px;
+        overflow: hidden;
+    }
+
+    .content__wrapper-box-options-vi {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 2fr);
+    }
+
+    .box-options-vi {
+        width: 290px;
+        height: 180px;
+    }
+
+
+    /* #endregion */
+
+}
+
+@media (max-width: 767px) and (min-width: 280px) {
+
+    /* #region BANNER*/
+    .container__banner {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .content__banner {
+        width: 100%;
+        height: 100%;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content__banner>h1 {
+        font-size: 50px;
+    }
+
+    .content__banner>h1>span {
+        font-size: 80px;
+    }
+
+    /* #endregion */
+
+    /* #region WELCOME */
+    .container__welcome {
+        max-width: 90%;
+        margin: 50px auto;
+    }
+
+    .content__welcome {
+        display: block;
+        flex-wrap: none;
+        justify-content: none;
+    }
+
+    .title__welcome {
+        text-align: center;
+    }
+
+    .title__welcome h1 {
+        margin: 50px auto 30px;
+    }
+
+    .title__welcome p {
+        display: none;
+    }
+
+    .msj__welcome {
+        max-width: none;
+    }
+
+    .img-msj__welcome {
+        width: 100%;
+        height: 200px;
+        background: url(../../img/vida_iglesia/img_01.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .msj__welcome>p:first-of-type {
+        margin: auto;
+        margin-top: 18px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .tag-pastor {
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* #endregion */
+
+    /* #region  WHAT GDV*/
+
+    .section__gdv {
+        text-align: center;
+    }
+
+    .section__gdv h1 {
+        color: var(--color-primary-1);
+    }
+
+    .section__gdv>p {
+        width: 90%;
+        margin: 20px auto;
+        color: var(--color-p);
+    }
+
+    .section__gdv-img {
+        width: 90%;
+        height: 250px;
+        background-position: center;
+    }
+
+    /* #endregion */
+
+    /* #region BELONG GDV */
+
+    /* MODAL */
+
+    .modal-description-belong-gdv {
+        text-align: center;
+        font-size: 20px;
+        color: var(--color-title-2);
+        margin-bottom: 30px;
+    }
+
+    .form-comment {
+        color: var(--color-secondary-1);
+    }
+
+    /*--CONTAINER--*/
+    .container__belong-gdv {
+        max-width: 90%;
+        margin: 40px auto;
+        background: linear-gradient(0deg, rgba(239, 239, 239, 0.79), rgba(239, 239, 239, 0.79)), url(../../img/vida_iglesia/img_03.jpg);
+        background-size: cover;
+        background-position: top;
+        border-radius: 25px;
+    }
+
+    .text-bottom {
+        font-size: 14px;
+    }
+
+    .content__belong-gdv {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .img-belong-gdv {
+        display: none;
+    }
+
+    .article__belong-gdv {
+        width: 90%;
+        padding-left: inherit;
+        margin-top: 80px;
+        margin-right: inherit;
+        margin-left: inherit;
+        margin: 80px auto 20px;
+        text-align: center;
+    }
+
+    .article__belong-gdv>h1 {
+        text-align: center;
+    }
+
+    .article__belong-gdv>p {
+        text-align: center;
+        margin: 30px 0;
+    }
+    /* #endregion */
+
+    /* #region STEP ONE */
+
+    .container__step-one {
+        max-width: 90%;
+        height: 400px;
+        background: linear-gradient(0deg, rgba(31, 52, 99, 1), rgba(31, 52, 99, 0.72)),url(../../img/vida_iglesia/img_04.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-step-one {
+        display: none;
+    }
+
+    .article__step-one {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .article__step-one>h1 {
+        margin-top: 20px;
+    }
+
+    .article__step-one>p {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    /* #endregion */
+
+    /* #region BIBLE ACADEMY */
+
+    .container__bible-academy {
+        max-width: 90%;
+        margin: 40px auto;
+        height: max-content;
+    }
+
+    .content__bible-academy {
+        padding: 40px;
+    }
+
+    .section__bible-academy {
+        text-align: center;
+    }
+
+    .section__bible-academy>p {
+        margin: 15px 0 30px;
+    }
+
+    .container__card-bible-academy {
+        margin: 40px auto 0 auto;
+        justify-content: center;
+    }
+
+    .card__bible-academy {
+        max-width: 280px;
+    }
+
+    .img__card-bible-academy {
+        height: 180px;
+    }
+
+    .content__card-bible-academy {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .title-card-bible-academy {
+        font-size: 20px;
+    }
+
+    /* #endregion */
+
+    /* #region DONATIONS */
+
+    .container__donations {
+        max-width: 80%;
+    }
+
+    .bank-accounts__donations {
+        height: min-content;
+        display: block;
+        flex: none;
+    }
+
+    .info__bank-accounts {
+        padding: 40px 0;
+    }
+
+    .content__info-bank-accounts {
+        margin-top: 0;
+    }
+
+    .title-bank,
+    .name-bank {
+        font-size: 18px;
+    }
+
+    .number-account {
+        font-size: 16px;
+    }
+
+
+    /* #endregion */
+
+    /* #region FLEX OPTIONS*/
+
+    .container__grid-template-vi {
+        max-width: 80%;
+        margin: 80px auto 40px;
+    }
+
+    .content__wrapper-box-options-vi {
+        width: 100%;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+
+    .box-options-vi {
+        width: 240px;
+        height: 150px;
+    }    
+    
+    .selector-options-vi {
+        display: flex;
+        place-items: center;
+    }
+    
+    .text-box-vi {
+        text-align: center;
+        padding: 0 0px;
+    }
+    /* #endregion */
+
+}

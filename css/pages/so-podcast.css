@@ -1,0 +1,235 @@
+body{
+    background: linear-gradient(180deg, #1B4D70 27.6%, #82C7EA 100%);
+}
+
+.container__podcast{
+    max-width: 100%;
+    margin-top: 180px;
+    margin-bottom: 40px;
+}
+
+.content__podcast{
+    padding: 0 20px;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.podcast-description{
+    max-width: 600px;
+}
+
+.podcast-description>h1,
+.podcast-description>p{
+    font-family: 'Lexend', sans-serif;
+    color: var(--color-white);
+}
+
+.podcast-description>h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.podcast-description>p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    width: 500px;
+}
+
+.elementor-widget-content-podcast{
+    width: 420px;
+    height: 280px;
+    margin-top: 60px;
+}
+
+.elementor-widget-content-podcast iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.podcast-phone-img{
+    width: 450px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.podcast-phone-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 1199px) and (min-width: 992px){
+
+    .podcast-description>h1{
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 50px;
+    }
+
+    .podcast-phone-img{
+        width: 330px;
+        height: 600px;
+    }
+    
+    .container__podcast{
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
+
+@media (max-width: 991px) and (min-width: 768px){    
+    .container__podcast{
+        margin-top: 130px;
+        padding: 20px 0;
+    } 
+
+    .content__podcast{
+        padding: 0;
+    }
+    
+    .podcast-description{
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .podcast-description>h1,
+    .podcast-description>p{
+        text-align: center;
+    }
+    
+    .podcast-description>h1{
+        font-size: 54px;
+    }
+    
+    .elementor-widget-content-podcast{
+        width: 420px;
+        margin: 40px auto 0 auto;
+    }
+    
+    .elementor-widget-content-podcast iframe{
+        width: 100%;
+        height: 100%;
+    }   
+}
+
+@media (max-width: 768px) and (min-width: 400px){    
+
+    .container__podcast{
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .content__podcast{
+        padding: 0;
+    }
+    
+    .podcast-description{
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    .podcast-description>h1,
+    .podcast-description>p{
+        text-align: center;
+        margin: auto;
+    }
+    
+    .podcast-description>h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .podcast-description>p{
+        font-size: 16px;
+        margin-top: auto;
+        margin: 30px auto 0 auto;
+        width: auto;
+    }
+    
+    .elementor-widget-content-podcast{
+        width: auto;
+        margin: 40px auto 0 auto;
+    }
+    
+    .elementor-widget-content-podcast iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .podcast-phone-img{
+        float: none;
+        margin: auto;
+        width: 400px;
+        height: 650px;
+    }
+    
+    .podcast-phone-img img{
+        object-fit: contain;
+    }
+    
+}
+
+@media (max-width: 399px) and (min-width: 280px){    
+
+    .container__podcast{
+        margin-top: 130px;
+        display: inline-block;
+    }
+    
+    .content__podcast{
+        padding: 0;
+    }
+    
+    .podcast-description{
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    .podcast-description>h1,
+    .podcast-description>p{
+        text-align: center;
+    }
+    
+    .podcast-description>h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    .podcast-description>p{
+        font-size: 16px;
+        width: auto;
+    }
+    
+    .elementor-widget-content-podcast{
+        width: auto;
+        padding: 10px;
+    }
+    
+    .elementor-widget-content-podcast iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .podcast-phone-img{
+        float: none;
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    
+    .podcast-phone-img img{
+        object-fit: contain;
+    }
+    
+}

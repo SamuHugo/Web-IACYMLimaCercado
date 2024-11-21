@@ -1,0 +1,58 @@
+:root {
+    /*Colors*/
+    --color-primary-1: #1F3463;
+    --color-primary-2: #1B4D70;
+    --color-primary-3: #14657A;
+    --color-primary-4: #107C88;
+    --color-primary-5: #039393;
+    --color-primary-6: #00AC9F;
+
+    --color-secondary-1: #A5890B;
+    --color-secondary-2: #bf9a08;
+    --color-secondary-3: #DCB228;
+    --color-secondary-4: #DCB228;
+    --color-secondary-5: #F7BE00;
+    --color-secondary-6: #FFCB00;
+
+    --color-title-1: #2C2932;
+    --color-title-2: #4C4A51;
+    --color-title-blank: #EEEEEE;
+    --color-title-blank-2: #DDDDDD;
+    --color-p: #5E616D;
+    --color-p-2: #222222;
+    --color-p-blank: #BBBBBB;
+    --color-form-text: #9FA0A5;
+
+    --color-red: #EC2222;
+    --color-white: #fff;
+    --color-white-alt: #f1f1f1;
+    --color-white-2: #f3f3f3;
+    --color-black: #0E0B13;
+    --color-black-2: #121212;
+    --color-dark: #1a1a1a;
+    --color-dark-2: #171717;
+
+    --color-kids: #F39415;
+    --color-r2: #E83462;
+    --color-gv: #1382C1;
+    --color-va: #1A51A3;
+    --color-da: #ba6c72;
+    --color-un: #c72c33;
+    --color-background: #EFEFEF;
+    --color-background-2: #F3F2F2;
+    --color-backgroung-black: #0D0D0E;
+
+    --color-ad-podcast: #1ED760;
+
+    --color-footer-light: #f8f9f9;
+    --color-footer-dark: #000000;
+    --color-footer-link: #2b3031;
+
+    --rounded-corner-l: 40px;
+    --rounded-corner-m: 30px;
+    --rounded-corner-s: 20px;
+    --rounded-corner-bottom: 0 0 30px 30px;
+
+    --drop-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+
+}

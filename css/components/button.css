@@ -1,0 +1,437 @@
+.btn__primary,.btn__primary-border,
+.btn__secondary, .btn__secondary-border, .btn__secondary-light, .btn__secondary-border-white, .btn__secondary-lg, .btn__secondary-lg, .btn__secondary-lg-2, .btn__secondary-border-white,
+.btn__alt, .btn__alt-lg{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn__primary{
+    padding: 8px 16px;
+    background-color: var(--color-primary-1);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    transition: all .4s;
+}
+
+.btn__primary:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary-1);
+}
+
+.btn__primary-border{
+    padding: 8px 16px;
+    border: 2px solid var(--color-primary-1);
+    color: var(--color-primary-1);
+    border-radius: 50px;
+    font-size: 15px;
+    transition: all .4s;
+}
+
+.btn__primary-border:hover{
+    border: 2px solid  var(--color-primary-1);
+    background-color: var(--color-primary-1);
+    color: var(--color-white);
+}
+
+
+.btn__secondary{
+    padding: 8px 16px;
+    background-color: var(--color-secondary-2);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn__secondary:hover{
+    background-color: var(--color-secondary-1);
+    color: var(--color-white);
+}
+
+.btn__secondary-light{
+    padding: 6px 16px;
+    background-color: var(--color-secondary-2);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn__secondary-light:hover{
+    background-color: var(--color-white);
+    color: var(--color-primary-1);
+}
+
+.btn__secondary-border{
+    padding: 8px 16px;
+    border: 2px solid var(--color-secondary-2);
+    color: var(--color-secondary-2);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.btn__secondary-border:hover{
+    border: 2px solid var(--color-secondary-1);
+    background-color: var(--color-secondary-1);
+    color: var(--color-white);
+}
+
+.btn__secondary-border-white{
+    padding: 8px 16px;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.btn__secondary-border-white:hover{
+    border: 2px solid var(--color-secondary-1);
+    background-color: var(--color-secondary-1);
+    color: var(--color-white);
+}
+
+.btn__secondary-lg{
+    padding: 8px 16px;
+    background-color: var(--color-secondary-2);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn__secondary-lg:hover{
+    background-color: var(--color-white);
+    color: var(--color-p);
+}
+
+.btn__secondary-lg-2{
+    padding: 10px 20px;
+    background-color: var(--color-secondary-2);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn__secondary-lg-2:hover{
+    background-color: var(--color-secondary-1);
+    color: var(--color-white);
+}
+
+.btn__border-white{
+    font-family: 'Jost', sans-serif;
+    padding: 6px 12px;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+
+.btn__border-white:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn__alt-lg{
+    padding: 8px 16px;
+    background-color: #A4A5A8;
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn__alt-lg:hover{
+    background-color: #4F4F4F;
+    color: var(--color-white);
+}
+
+
+.btn__alt{
+    padding: 8px 16px;
+    background-color: rgba(100, 100, 100, 0.7);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn__alt:hover{
+    background-color: rgba(250, 250, 250, 0.8);
+    color: var(--color-black);
+}
+
+/* #region BTN SLIDER */
+
+ /*
+ WOA = Without Absolute
+ */
+ .slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: var(--color-white-2);
+    top: 50%;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px  !important;
+    border-radius: 50%;
+    transition: all .4s ease;
+    color: var(--color-black);
+}
+
+.slider__btn:hover{
+    background: rgba(209, 209, 209, 0.8);
+}
+
+.slider__btn-woa{
+    width: 40px;
+    height: 40px;
+    background: var(--color-white-2);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px  !important;
+    border-radius: 50%;
+    transition: all .4s ease;
+    color: var(--color-black);
+}
+
+.slider__btn-woa:hover{
+    line-height: 40px;
+    background: rgba(200, 200, 200, 0.8);
+}
+
+.slider__btn-2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(210, 200, 205, 0.228);
+    top: 50%;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px !important;
+    border-radius: 50%;
+    transition: all .4s ease;
+    color: var(--color-black);
+}
+
+.slider__btn-2:hover{
+    background: rgba(200, 200, 200, 0.8);
+}
+
+.slider__btn-2-woa{
+    width: 40px;
+    height: 40px;
+    background: var(--color-secondary-2);
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px !important;
+    border-radius: 50%;
+    transition: all .4s ease;
+    color: var(--color-white);
+}
+
+.slider__btn-2-woa:hover{
+    background: rgba(200, 200, 200, 0.8);
+    color: var(--color-black);
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .slider__btn, .slider__btn-2, .slider__btn-2-woa, .slider__btn-woa{
+        display: none;
+    }
+}
+
+/* #endregion */
+
+/* #region BUTTONS RED */
+
+.btn__zonakids, .btn__r2, .btn__gv, .btn__gx,
+.btn__va, .btn__da, .btn__un, .btn__sh{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+.btn__zonakids{
+    padding: 8px 16px;
+    background-color: var(--color-kids);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__zonakids:hover{
+    background-color: rgba(243, 148, 21, 0.7);
+}
+
+.btn__r2{
+    padding: 8px 16px;
+    background-color: var(--color-r2);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__r2:hover{
+    background-color: rgba(232, 52, 98, 0.7);
+}
+
+.btn__gv{
+    padding: 8px 16px;
+    background-color: var(--color-gv);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__gv:hover{
+    background-color: rgba(19, 130, 193, 0.7);
+}
+
+.btn__gx{
+    padding: 8px 16px;
+    background-color: var(--color-secondary-1);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__gx:hover{
+    background-color: rgba(165, 137, 11, 0.7);
+}
+
+.btn__va{
+    padding: 8px 16px;
+    background-color: var(--color-va);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__va:hover{
+    background-color: rgba(26, 81, 163, 0.7);
+}
+
+.btn__da{
+    padding: 8px 16px;
+    background-color: var(--color-da);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__da:hover{
+    background-color: rgba(186, 108, 114, 0.7);
+}
+
+.btn__un{
+    padding: 8px 16px;
+    background-color: var(--color-un);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__un:hover{
+    background-color: rgba(199, 44, 51, 0.7);
+}
+
+.btn__sh{
+    padding: 8px 16px;
+    background-color: var(--color-secondary-2);
+    color: var(--color-white);
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn__sh:hover{
+    background-color: rgba(191, 154, 8, 0.7);
+}
+
+
+/* #endregion */
+
+/* #region BTN MODAL */
+
+/*============
+  Aplicarlo en el contenedor del label
+ ============ */
+
+ .btn-close-modal{
+    border-radius: 50px;
+    background-color: #FF5F58;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+ }
+
+ .btn-close-modal>label{
+    margin: auto;
+ }
+
+ .btn-close-modal>label>i{
+    color: transparent;
+    font-size: 18px;
+    margin-top: 4px;
+    padding: 0px 6px;
+ }
+
+ .btn-close-modal>label>i:hover{
+    color: #730705;
+ }
+ .btn-close-modal:hover{
+    background-color: #FF8D85;
+ }
+
+ @media (max-width: 767px) and (min-width: 280px){
+    .btn-close-modal{
+        width: 20px;
+        height: 20px;
+     }
+
+     .btn-close-modal>label>i{
+        font-size: 16px;
+        margin-top: 2px;
+        padding: 0px 2px;
+     }
+ }
+
+/* #endregion */

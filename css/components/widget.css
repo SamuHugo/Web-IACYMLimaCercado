@@ -1,0 +1,342 @@
+/* #region WIDGET ORACION */
+.elementor-widget-prayer{
+    background-color: var(--color-title-1);
+    max-width: 100%;
+    min-height: 300px;
+    margin-top: 20px;
+}
+
+.elementor-widget-prayer-2{
+    background-color: var(--color-title-2);
+    max-width: 100%;
+    min-height: 300px;
+    margin-top: 20px;
+}
+
+.widget-prayer__section{
+    text-align: center;
+    color: var(--color-white);
+}
+
+.widget-prayer-title{
+    font-size: 38px;
+}
+
+.widget-prayer-description{
+    color: var(--color-white);
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+.widget-prayer-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media(max-width: 991px) and (min-width: 768px){
+    .elementor-widget-prayer{
+        min-height: 250px;
+    }
+
+    .widget-prayer-title{
+        font-size: 30px;
+    }
+
+    .widget-prayer-description{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 327px){
+    .elementor-widget-prayer{
+        min-height: 250px;
+    }
+
+    .widget-prayer-title{
+        font-size: 28px;
+    }
+
+    .widget-prayer-description{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 326px) and (min-width: 280px){
+    .elementor-widget-prayer{
+        min-height: 320px;
+    }
+}
+
+/* #endregion */
+
+/* #region WIDGET BOLETÍN */
+.elementor-widget-bulletin{
+    background-color: var(--color-primary-2);
+    max-width: 100%;
+    min-height: 300px;
+}
+
+.elementor-widget-bulletin-content{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 11%;
+}
+
+.widget-bulletin__section{
+    width: 40%;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.widget-bulletin-title{
+    font-size: 38px;
+    font-weight: 700;
+    width: 500px;
+}
+
+.widget-bulletin-description{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-white);
+    margin-top: 5px;
+}
+
+.widget-bulletin-form{
+    width: 60%;
+}
+
+.widget-bulletin-form form{
+    margin-top: 100px;
+    float: right;
+}
+
+.widget-bulletin-txt{
+    background-color: transparent;
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-white);
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 400px;
+}
+
+.widget-bulletin-txt::placeholder{
+    color: var(--color-white);
+    font-family: 'Jost', sans-serif;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.widget-bulletin-btn{
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+@media (max-width: 1366px) and (min-width: 1200px) {
+    .elementor-widget-bulletin-content{
+        padding: 0 6%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .elementor-widget-bulletin-content{
+        padding: 0 5%;
+    }
+
+    .widget-bulletin-title{
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .widget-bulletin-description{
+        font: 14px;
+    }
+
+    .widget-bulletin-txt{
+        width: 350px;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 768px){
+    .elementor-widget-bulletin{
+        min-height: 300px;
+    }
+
+    .elementor-widget-bulletin-content{
+        padding: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .widget-bulletin__section{
+        text-align: center;
+        margin: 0 auto 30px auto;
+        width: 70%;
+    }
+
+    .widget-bulletin-title{
+        font-size: 30px;
+        width: auto;
+    }
+
+    .widget-bulletin-description{
+        font: 14px;
+    }
+
+    .widget-bulletin-form{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    .widget-bulletin-form form{
+        float: none;
+        margin-top: 0px;
+    }
+
+    .widget-bulletin-txt{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .widget-bulletin-btn{
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 520px){
+    .elementor-widget-bulletin{
+        min-height: 280px;
+    }
+
+    .elementor-widget-bulletin-content{
+        padding: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .widget-bulletin__section{
+        text-align: center;
+        margin: 0 auto 30px auto;
+        width: 90%;
+    }
+
+    .widget-bulletin-title{
+        font-size: 28px;
+        width: auto;
+    }
+
+    .widget-bulletin-description{
+        font-size: 13px;
+    }
+
+    .widget-bulletin-form{
+        margin: auto;
+        width: 70%;
+        text-align: center;
+    }
+
+    .widget-bulletin-form form{
+        margin-top: 0px;
+        float: none;
+    }
+
+    .widget-bulletin-txt{
+        max-width: 380px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .widget-bulletin-btn{
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 521px) and (min-width: 280px){
+    .elementor-widget-bulletin{
+        min-height: 370px;
+    }
+
+    .elementor-widget-bulletin-content{
+        padding: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .widget-bulletin__section{
+        text-align: center;
+        margin: 0 auto 30px auto;
+        width: 90%;
+    }
+
+    .widget-bulletin-title{
+        font-size: 28px;
+        width: auto;
+    }
+
+    .widget-bulletin-description{
+        font-size: 13px;
+    }
+
+    .widget-bulletin-form{
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .widget-bulletin-form form{
+        margin-top: 0px;
+        float: none;
+    }
+
+    .widget-bulletin-txt{
+        max-width: 250px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .widget-bulletin-btn{
+        margin: auto;
+        text-align: center;
+    }
+}
+
+/* #endregion */
+
+/* #region WIDGET INFORMES */
+
+.elementor-widget-report{
+    background-color: var(--color-black);
+    color: var(--color-title-blank);
+    padding: 50px 90px 30px 90px;
+}
+
+.content-widget-report{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget-report-title{
+    font-size: 38px;
+}
+
+.widget-report-description{
+    font-size: 20px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.number-telf{
+    font-size: 36px;
+    color: var(--color-secondary-2);
+}
+
+/* #endregion */
+
