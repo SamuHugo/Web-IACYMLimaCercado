@@ -7,9 +7,9 @@
 }
 
 .elementor-widget-prayer-2{
-    background-color: var(--color-title-2);
+    background-color: var(--color-p-2);
     max-width: 100%;
-    min-height: 300px;
+    min-height: 250px;
     margin-top: 20px;
 }
 
@@ -30,7 +30,7 @@
 
 .widget-prayer-btn{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 
@@ -64,6 +64,10 @@
 
 @media (max-width: 326px) and (min-width: 280px){
     .elementor-widget-prayer{
+        min-height: 320px;
+    }
+
+    .elementor-widget-prayer-2{
         min-height: 320px;
     }
 }

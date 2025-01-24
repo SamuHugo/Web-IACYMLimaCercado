@@ -1,58 +1,54 @@
 /* #region font jost*/
-.elementor-fn-jost-xbl{
-    font-family: 'Jost', sans-serif;
+.text-weight-700{
+    color: red;
     font-weight: 700;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.01rem;
 }
 
 
-.elementor-fn-jost-bl{
-    font-family: 'Jost', sans-serif;
+.text-weight-600{
+    color: blue;
     font-weight: 600;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.01rem;
 }
 
-.elementor-fn-jost-md{
-    font-family: 'Jost', sans-serif;
+.text-weight-500{
+    color: yellow;
     font-weight: 500;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.01rem;
 }
 
-.elementor-fn-jost-rg{
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-}
-
-.elementor-fn-jost-lt{
-    font-family: 'Jost', sans-serif;
+.text-weight-300{
+    color: greenyellow;
     font-weight: 300;
+    letter-spacing: 0.01rem;
 }
 /* #endregion */
 
 /* #region font lexend */
-.elementor-fn-lx-xbl{
+.text-weight-lx-700{
     font-family: 'Jost', sans-serif;
     font-weight: 700;
     letter-spacing: 0.05rem;
 }
 
-.elementor-fn-lx-bl{
+.text-weight-lx-600{
     font-family: 'Lexend', sans-serif;
     font-weight: 600;
 }
 
-.elementor-fn-lx-md{
+.text-weight-lx-500{
     font-family: 'Lexend', sans-serif;
     font-weight: 500;
 
 }
 
-.elementor-fn-lx-rg{
+.text-weight-lx-400{
     font-family: 'Lexend', sans-serif;
     font-weight: 400;
 }
 
-.elementor-fn-lx-lt{
+.text-weight-lx-300{
     font-family: 'Lexend', sans-serif;
     font-weight: 300;
 }
@@ -61,7 +57,6 @@
 /*### TEXT TYPE ###*/
 
 .elementor-heading-title{
-    font-family: 'Jost', sans-serif;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 0.04rem;
@@ -69,21 +64,18 @@
 }
 
 .elementor-heading-title-2{
-    font-family: 'Jost', sans-serif;
     font-size: 34px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .elementor-heading-title-lg{
-    font-family: 'Jost', sans-serif;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .elementor-heading-lx-title-lg{
-    font-family: 'Jost', sans-serif;
     font-size: 38px;
     font-weight: 600;
     text-transform: uppercase;
@@ -91,51 +83,67 @@
 
 
 
+.elementor-subtitle{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
 .elementor-p{
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-size: 17px;
     font-weight: 400;
+    letter-spacing: 0.01rem;
 }
 
 .elementor-p-2{
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 400;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.01rem;
 }
 
 .elementor-p-3{
-    font-family: 'Dm Sans', sans-serif;
+    font-family: inherit;
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.01rem;
 }
 
 .elementor-p-light{
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-size: 17px;
     font-weight: 300;
-    line-height: 1.5em;
+    letter-spacing: 0.01rem;
 }
 
 .elementor-p-3-light{
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5em;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.01rem;
 }
 
 .elementor-p-2-light{
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5em;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.01rem;
 }
 
 
-@media (max-width: 992px) and (min-width: 280px){
+.elementor-signature{
+    user-select: none;
+    font-family: 'Byron', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+@media (max-width: 0) and (min-width: 0){
      .elementor-p{
         font-size: 15px;
      }

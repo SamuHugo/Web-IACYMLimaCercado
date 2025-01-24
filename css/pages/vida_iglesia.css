@@ -14,17 +14,20 @@
 }
 
 .content__banner>h1 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: inherit;
     font-size: 120px;
     text-align: center;
     color: var(--color-white);
+    text-shadow: 1px 1px #344468, 2px 2px #344468, 3px 3px #344468, 4px 4px #344468, 5px 5px #344468, 6px 6px #344468, 7px 7px #344468, 8px 8px #344468, 9px 9px #344468, 10px 10px #344468, 11px 11px #344468, 12px 12px #344468, 13px 13px #344468, 14px 14px #344468, 15px 15px #344468, 16px 16px #344468, 17px 17px #344468, 18px 18px #344468, 19px 19px #344468, 20px 20px #344468;
 }
 
 .content__banner>h1>span {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: inherit;
     font-size: 170px;
     text-align: center;
     color: var(--color-white);
+    text-shadow: 1px 1px #344468, 2px 2px #344468, 3px 3px #344468, 4px 4px #344468, 5px 5px #344468, 6px 6px #344468, 7px 7px #344468, 8px 8px #344468, 9px 9px #344468, 10px 10px #344468, 11px 11px #344468, 12px 12px #344468, 13px 13px #344468, 14px 14px #344468, 15px 15px #344468, 16px 16px #344468, 17px 17px #344468, 18px 18px #344468, 19px 19px #344468, 20px 20px #344468;
+
 }
 
 /* #endregion */
@@ -51,8 +54,7 @@
 .title__welcome p {
     margin-top: 40px;
     padding: 11px 20px;
-    font-family: 'junge', serif;
-    font-size: 22px;
+    font-family: inherit;
     background-color: var(--color-primary-1);
     color: var(--color-white);
     border-radius: 50px;
@@ -76,8 +78,7 @@
     right: 0;
     margin: auto;
     margin-top: 20px;
-    font-family: 'junge', serif;
-    font-size: 22px;
+    font-family: inherit;
     text-align: right;
     color: var(--color-p);
 }
@@ -85,6 +86,7 @@
 .tag-pastor {
     display: none;
     margin-top: 40px;
+    font-family: inherit;
     padding: 8px 17px;
     background-color: var(--color-primary-1);
     color: var(--color-white);
@@ -114,7 +116,7 @@
     width: 80%;
     height: 500px;
     margin: auto;
-    border-radius: 25px;
+    border-radius: var(--rounded-s);
     background: url(../../img/vida_iglesia/img_02.jpg);
     background-size: cover;
 }
@@ -270,24 +272,26 @@
 
 .section__bible-academy>p {
     color: var(--color-title-2);
-    margin: 30px 100px 0 100px;
+    margin: 30px 100px;
 }
 
 .container__card-bible-academy {
-    margin: 40px auto 0 auto;
+    width: 90%;
+    margin: 20px auto auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
 }
 
 .card__bible-academy {
-    max-width: 350px;
+    max-width: 270px;
 }
 
 .img__card-bible-academy {
-    height: 220px;
+    height: 180px;
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: var(--rounded-s);
 }
 
 .img__card-bible-academy>img {
@@ -298,13 +302,9 @@
 .content__card-bible-academy {
     width: 85%;
     margin: 10px auto;
-}
-
-.title-card-bible-academy {
-    font-family: 'Julius sans one', sans-serif;
-    font-size: 22px;
     text-align: center;
 }
+
 
 .btn__academy {
     margin-top: 40px;
@@ -325,6 +325,11 @@
     text-align: center;
     margin-bottom: 30px;
     color: var(--color-primary-1);
+}
+
+.content__donations>p{
+    margin: 30px 20px;
+    text-align: center;
 }
 
 .bank-accounts__donations {
@@ -544,17 +549,9 @@
         margin-top: 80px;
     }
 
-    .title__welcome p {
-        font-size: 20px;
-    }
-
     .img-msj__welcome {
         width: 450px;
         height: 200px;
-    }
-
-    .msj__welcome p {
-        font-size: 18px;
     }
 
     /* #endregion */
@@ -656,7 +653,7 @@
     .container__bible-academy {
         max-width: 950px;
         margin: 30px auto;
-        height: 500px;
+        height: auto;
     }
 
     .content__bible-academy {
@@ -883,7 +880,7 @@
 
     .container__step-one {
         max-width: 90%;
-        height: 400px;
+        height: 300px;
         background: linear-gradient(0deg, rgba(31, 52, 99, 1), rgba(31, 52, 99, 0.72)),url(../../img/vida_iglesia/img_04.jpg);
         background-size: cover;
         background-position: center;
@@ -900,12 +897,12 @@
     }
 
     .article__step-one>h1 {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .article__step-one>p {
         text-align: center;
-        margin: 30px 0;
+        margin: 15px 0;
     }
 
     /* #endregion */
@@ -915,7 +912,8 @@
     .container__bible-academy {
         max-width: 90%;
         margin: 40px auto;
-        height: 500px;
+        background-color: red;
+        height: auto;
     }
 
     .content__bible-academy {
@@ -932,10 +930,8 @@
 
     .container__card-bible-academy {
         margin: 40px auto 0 auto;
-    }
-
-    .card__bible-academy {
-        max-width: 220px;
+        align-items: center;
+        justify-content: center;
     }
 
     .img__card-bible-academy {
@@ -943,7 +939,6 @@
     }
 
     .content__card-bible-academy {
-        width: 95%;
         margin: 10px auto;
     }
 

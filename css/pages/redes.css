@@ -210,7 +210,7 @@ body{
     position: relative;
     overflow: hidden;
     font-family: 'Jost', sans-serif;
-    border-radius:25px;
+    border-radius:var(--rounded-s);
 }
 
 .redes-box-img{

@@ -8,11 +8,11 @@
 }
 
 .btn__primary{
-    padding: 8px 16px;
+    padding: 6px 12px;
     background-color: var(--color-primary-1);
     color: var(--color-white);
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 13px;
     transition: all .4s;
 }
 
@@ -22,11 +22,11 @@
 }
 
 .btn__primary-border{
-    padding: 8px 16px;
+    padding: 6px 12px;
     border: 2px solid var(--color-primary-1);
     color: var(--color-primary-1);
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 13px;
     transition: all .4s;
 }
 
@@ -38,11 +38,11 @@
 
 
 .btn__secondary{
-    padding: 8px 16px;
+    padding: 6px 12px;
     background-color: var(--color-secondary-2);
     color: var(--color-white);
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     transition: all .4s;
 }
@@ -53,8 +53,8 @@
 }
 
 .btn__secondary-light{
-    padding: 6px 16px;
-    background-color: var(--color-secondary-2);
+    padding: 6px 12px;
+    background-color: var(--color-secondary-1);
     color: var(--color-white);
     border-radius: 50px;
     font-size: 12px;
@@ -68,7 +68,7 @@
 }
 
 .btn__secondary-border{
-    padding: 8px 16px;
+    padding: 6px 12px;
     border: 2px solid var(--color-secondary-2);
     color: var(--color-secondary-2);
     border-radius: 50px;
@@ -85,7 +85,7 @@
 }
 
 .btn__secondary-border-white{
-    padding: 8px 16px;
+    padding: 6px 12px;
     border: 2px solid var(--color-white);
     color: var(--color-white);
     border-radius: 50px;
@@ -101,43 +101,14 @@
     color: var(--color-white);
 }
 
-.btn__secondary-lg{
-    padding: 8px 16px;
-    background-color: var(--color-secondary-2);
-    color: var(--color-white);
-    border-radius: 50px;
-    font-size: 17px;
-    cursor: pointer;
-    transition: all .4s;
-}
-
-.btn__secondary-lg:hover{
-    background-color: var(--color-white);
-    color: var(--color-p);
-}
-
-.btn__secondary-lg-2{
-    padding: 10px 20px;
-    background-color: var(--color-secondary-2);
-    color: var(--color-white);
-    border-radius: 50px;
-    font-size: 17px;
-    cursor: pointer;
-    transition: all .4s;
-}
-
-.btn__secondary-lg-2:hover{
-    background-color: var(--color-secondary-1);
-    color: var(--color-white);
-}
 
 .btn__border-white{
     font-family: 'Jost', sans-serif;
     padding: 6px 12px;
     border: 2px solid var(--color-white);
     color: var(--color-white);
-    border-radius: 50px;
-    font-size: 12px;
+    border-radius: var(--rounded-l);
+    font-size: 13px;
     font-weight: 600;
     transition: all .4s;
     cursor: pointer;
@@ -147,22 +118,6 @@
 .btn__border-white:hover{
     background-color: rgba(255, 255, 255, 0.4);
 }
-
-.btn__alt-lg{
-    padding: 8px 16px;
-    background-color: #A4A5A8;
-    color: var(--color-white);
-    border-radius: 50px;
-    font-size: 17px;
-    cursor: pointer;
-    transition: all .4s;
-}
-
-.btn__alt-lg:hover{
-    background-color: #4F4F4F;
-    color: var(--color-white);
-}
-
 
 .btn__alt{
     padding: 8px 16px;
