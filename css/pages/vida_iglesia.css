@@ -232,7 +232,7 @@
     width: 45%;
     color: var(--color-white);
     text-align: center;
-    padding: 50px;
+    padding: 50px; 
 }
 
 .article__step-one>h1 {
